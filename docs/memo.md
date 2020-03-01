@@ -3,7 +3,7 @@
 # Economics 
 
 ## Network, Complex System
-* [#ComplexityExplained](https://complexityexplained.github.io/) 綺麗な可視化
+* [#ComplexityExplained](https://complexityexplained.github.io/) 見やすい。色々なデモがある
 
 ## Measure of aggregate economic activity 
 national accounts 
