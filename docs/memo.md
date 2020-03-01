@@ -1,0 +1,15 @@
+有用なリンクや覚え書きなど
+
+# Macro Economics 
+
+## Measure of aggregate economic activity 
+national accounts 
+* [US: Bureau of Economic Analysis](http://www.bea.gov/index.htm)
+* [Japan: Economic and Social Research Institute](http://www.esri.go.jp/index-e.html)
+
+cross-country databases
+* [Penn World Table](https://pwt.sas.upenn.edu/php_site/pwt_index.php)
+* [UN](http://unstats.un.org/unsd/nationalaccount/data.asp)
+
+# 諸々Open Data 
+* [AWS](https://registry.opendata.aws/)
