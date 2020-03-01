@@ -1,5 +1,7 @@
 有用なリンクや覚え書きなど
 
+# Data Science
+
 # Economics 
 
 ## Causal Inference, Structual Estimation
@@ -19,6 +21,7 @@ cross-country databases
 # Physics
 * ILC
 
-# 諸々Open Data 
+# Others 
+## 諸々Open Data 
 * [AWS](https://registry.opendata.aws/)
 * [Google Public Patent data](https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data)
