@@ -1,9 +1,5 @@
 有用なリンクや覚え書きなど
 
-# Math
-## Network, Complex System
-* [#ComplexityExplained](https://complexityexplained.github.io/) 見やすい。色々なデモがある
-
 # Economics 
 
 ## Causal Inference, Structual Estimation
@@ -17,14 +13,12 @@ cross-country databases
 * [Penn World Table](https://pwt.sas.upenn.edu/php_site/pwt_index.php)
 * [UN](http://unstats.un.org/unsd/nationalaccount/data.asp)
 
+## Network, Complex System
+* [#ComplexityExplained](https://complexityexplained.github.io/) 見やすい。色々なデモがある
+
 # Physics
 * ILC
 
-# Data Science
-
-
-# Others
-
-## 諸々Open Data 
+# 諸々Open Data 
 * [AWS](https://registry.opendata.aws/)
 * [Google Public Patent data](https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data)
