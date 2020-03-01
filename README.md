@@ -1,2 +1,2 @@
 # ororoku.github.io
-homepage 
+雑記帳
