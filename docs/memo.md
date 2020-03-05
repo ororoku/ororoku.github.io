@@ -1,10 +1,12 @@
 有用なリンクや覚え書きなど
 
---# Data Science
-
---# Economics 
 
 ## Causal Inference, Structual Estimation
+* [KDD 2018 Tutorial](https://causalinference.gitlab.io/kdd-tutorial/)
+* [NIPS 2018 Tutorial](https://nips.cc/Conferences/2018/Schedule?showEvent=10982)
+* [コーネル大学の授業資料](http://www.cs.cornell.edu/courses/cs7792/2016fa/)
+* [DataRobotの解説記事](https://blog.datarobot.com/jp/causality_analysis_machine_learning) 分かりやすかった
+
 
 ## Measure of Aggregate Economic Activity 
 national accounts 
@@ -21,7 +23,6 @@ cross-country databases
 ## Science Policy
 * ILC
 
---# Others 
 ## 諸々Open Data 
 * [AWS](https://registry.opendata.aws/)
 * [Google Public Patent data](https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data)
