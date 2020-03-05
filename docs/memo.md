@@ -1,8 +1,8 @@
 有用なリンクや覚え書きなど
 
-# Data Science
+--# Data Science
 
-# Economics 
+--# Economics 
 
 ## Causal Inference, Structual Estimation
 
@@ -18,10 +18,10 @@ cross-country databases
 ## Network, Complex System
 * [#ComplexityExplained](https://complexityexplained.github.io/) 見やすい。色々なデモがある
 
-# Physics
+## Science Policy
 * ILC
 
-# Others 
+--# Others 
 ## 諸々Open Data 
 * [AWS](https://registry.opendata.aws/)
 * [Google Public Patent data](https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data)
