@@ -7,6 +7,14 @@
 * [コーネル大学の授業資料](http://www.cs.cornell.edu/courses/cs7792/2016fa/)
 * [DataRobotの解説記事](https://blog.datarobot.com/jp/causality_analysis_machine_learning) 分かりやすかった
 
+### EconML (Microsoft)
+* 公式 https://github.com/Microsoft/EconML
+* 解説ブログ https://usaito.hatenablog.com/entry/2019/04/07/205756
+
+### DoWhy (Microsoft) 
+* 因果関係を有向グラフとしてインプットすればバイアスを取り除いた推定量を返してくれる
+* 公式 https://microsoft.github.io/dowhy/
+* 解説ブログ https://www.krsk-phs.com/entry/2018/08/22/060844
 
 ## Measure of Aggregate Economic Activity 
 national accounts 
