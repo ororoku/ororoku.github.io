@@ -9,6 +9,8 @@
 ## Webマーケティングでよく使われる指標
 * PV (Page View)
 * UU (Unique User)
-* 
-
+* セッション数（のべ人数）
+* CVR (Conversion Rate)
+  - CV数 / セッション数
+  - CV数 / UU数
 # 書籍の紹介
