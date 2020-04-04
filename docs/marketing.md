@@ -8,13 +8,18 @@
 
 ## Webマーケティングでよく使われる指標
 * PV (Page View)
+  - Google Analyticsなどで測る
 * UU (Unique User)
 * セッション数（のべ人数）
 * CVR (Conversion Rate)
-  - CV数 / セッション数
-  - CV数 / UU数
+  - Eコマースなど物販系 : CV数 / セッション数
+  - 銀行など申込系 : CV数 / UU数
 * CTR (Click Through Rate) 
   - クリックされる率
 * CPA (Cost Per Acquisition)
-
+  - 顧客1人獲得にかかったコスト
+  - 類似の指標でCPO(Cost Per Order), CPF(Cost Per Fan)なども
+* ROAS (Return On Advertising Spend)
+  - 投資した広告費に対して、どれだけ広告経由の売上が発生したか
+  
 # 書籍の紹介
