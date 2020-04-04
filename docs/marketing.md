@@ -13,4 +13,5 @@
 * CVR (Conversion Rate)
   - CV数 / セッション数
   - CV数 / UU数
+* CTR (Click Through Rate)
 # 書籍の紹介
