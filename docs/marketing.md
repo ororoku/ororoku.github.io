@@ -13,5 +13,8 @@
 * CVR (Conversion Rate)
   - CV数 / セッション数
   - CV数 / UU数
-* CTR (Click Through Rate)
+* CTR (Click Through Rate) 
+  - クリックされる率
+* CPA (Cost Per Acquisition)
+
 # 書籍の紹介
