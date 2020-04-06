@@ -27,4 +27,8 @@
 * CVRを上げたい
   - 離脱しそうな客を除く（分母を小さくする）
   - LPO(Landing Page Optimization)
+
 ## 参考文献
+'''
+
+'''
