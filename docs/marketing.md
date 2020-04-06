@@ -24,7 +24,6 @@
 
 ## よくある施策
 * CPAを下げたい
-  - 
 * CVRを上げたい
   - 離脱しそうな客を除く（分母を小さくする）
   - LPO(Landing Page Optimization)
