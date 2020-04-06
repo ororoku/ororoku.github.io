@@ -29,6 +29,5 @@
   - LPO(Landing Page Optimization)
 
 ## 参考文献
-'''
-
-'''
+* [マンガでわかるWebマーケティング 改訂版 Webマーケッター瞳の挑戦!   村上 佳代] (https://www.amazon.co.jp/dp/B06WRWQ98X/ref=cm_sw_r_tw_dp_U_x_nkWIEbM4RDWXY)
+* [現代マーケティング・リサーチ -- 市場を読み解くデータ分析   照井 伸彦] (https://www.amazon.co.jp/dp/4641164169/ref=cm_sw_r_tw_dp_U_x_ibWIEb3Y6K5SV)
