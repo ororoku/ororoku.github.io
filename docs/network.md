@@ -1,8 +1,8 @@
-## 感染症のモデルについて
-SIRモデルというのを使うらしい。
+# コロナ日記
 
-## 複雑系
-* [#ComplexityExplained](https://complexityexplained.github.io/) 見やすい。感染症モデルの可視化など色々なデモがある
+## 感染症の数理モデルについて
+SIRモデルというのを使うらしい。
+* [#ComplexityExplained](https://complexityexplained.github.io/) が見やすい。感染症モデルの可視化など色々なデモがある
 
 ## 経済学者たちの反応
 * 楡井先生のコラム [RIETI - コロナ禍の経済対策：社会的離隔・外部性・デジタル化](https://www.rieti.go.jp/jp/columns/a01_0561.html) は、患者数を医療設備・人員の供給制約内に抑えることの重要性を指摘しつつ、政府による非医薬介入（社会的離隔や移動規制など）と経済活動のトレードオフを指摘しています。
