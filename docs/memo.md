@@ -10,11 +10,12 @@
 * [マーケティングの勉強](marketing.md) 2020/04/04
 
 ## Physics  
-* ILC
+* ILC 
+* Booklist 
 
-## Open Data 
-* [AWS](https://registry.opendata.aws/)
-* [Google Public Patent data](https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data)
+## Math
+* マスコレルAppendixの解説
+* ごちゃごちゃした関数の微分（対数微分の応用）[ファインマン物理数学](http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol5.pdf)のLecture3を参照
 
 ## Tools
 * Vim
