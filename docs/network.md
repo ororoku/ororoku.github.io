@@ -7,10 +7,10 @@ SIRモデルというのを使うらしい。
 ## 経済学者たちの反応
 * 楡井先生のコラム [RIETI - コロナ禍の経済対策：社会的離隔・外部性・デジタル化](https://www.rieti.go.jp/jp/columns/a01_0561.html) は、患者数を医療設備・人員の供給制約内に抑えることの重要性を指摘しつつ、政府による非医薬介入（社会的離隔や移動規制など）と経済活動のトレードオフを指摘しています。
 * 吉川先生らによるコラム[コロナショックの影響と対策　金融システムに波及 警戒を：日本経済新聞](https://www.nikkei.com/article/DGKKZO57631230T00C20A4KE8000/)は、バブル崩壊から金融システムへの影響を懸念し、弱者救済の観点からは消費税減税は望ましくないということを説明しています。
-* 川口先生らの論文
-GitHubにデータとコードも公開されているので、結果は再現可能です
-* ロックダウンを継続すべきかどうか、SIRモデルを使った考察
-* 
+* 川口先生らの論文[Does TB Vaccination Reduce COVID-19 Infection?: No Evidence from a Regression Discontinuity Analysis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3572090)は、BCG注射がCOVID-19抑制に効いているという先行研究の主張について、疑似相関を見ている可能性があると指摘しています。考えられる交絡因子の例として国の豊かさを挙げています。すなわち、BCGを注射する国というのは、結核で死ぬ人が多い貧しい国である -> 貧しい国は欧米や中国との人の行き来が少ない -> 結局、COVID-19の患者数も増えない（まだ入ってきてない）というもので、これはありそうな話だなと思いました。GitHubにデータとコードも公開されているので、結果は再現可能です
+* Alvarezらの論文[A Simple Planning Problem for
+COVID-19 Lockdown](http://www.eief.it/eief/images/WP_20.05.pdf)は、ロックダウンを継続すべきかどうか、SIRモデルを使って考察しています。他にも色々な分析がここにまとまっているみたいです http://www.eief.it/eief/index.php/covid-19-forum
+* [How Many Jobs Can be Done at Home?](https://bfi.uchicago.edu/wp-content/uploads/BFI_White-Paper_Dingel_Neiman_3.2020.pdf) も面白そうなテーマです
 
 ## その他
 * 山中先生によるまとめ
