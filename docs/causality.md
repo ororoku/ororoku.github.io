@@ -4,7 +4,7 @@
 * [KDD 2018 Tutorial](https://causalinference.gitlab.io/kdd-tutorial/)
 * [NIPS 2018 Tutorial](https://nips.cc/Conferences/2018/Schedule?showEvent=10982)
 * [コーネル大学の授業資料](http://www.cs.cornell.edu/courses/cs7792/2016fa/)
-* [DataRobotの解説記事](https://blog.datarobot.com/jp/causality_analysis_machine_learning) 分かりやすかった
+* [DataRobotの解説記事](https://blog.datarobot.com/jp/causality_analysis_machine_learning) 
 * [川口さんの講義資料](https://kohei-kawaguchi.github.io/EmpiricalIO/production.html)
 
 ライブラリ
