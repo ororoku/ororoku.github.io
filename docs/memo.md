@@ -1,9 +1,9 @@
 有用なリンクや覚え書きなど
 
 ## Economics 
+* [Covid-19関連](network.md) 2020/04/15
 * [因果推論や構造推定について](causality.md) 2020/04/04
 * [経済活動をどう測定するか](economic_activities.md) 2020/04/04
-* [ネットワークと複雑系・コロナウィルスについて](network.md) 2020/04/04
 * [マーケティングの勉強](marketing.md) 2020/04/04
 
 ## Science 
