@@ -18,10 +18,10 @@
 
 ## Tools
 * Vim
- * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
- * 解説動画 youtubeのやつ
+  * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
+  * 解説動画 youtubeのやつ
 * Python 
- * 作った関数など
+  * 作った関数など
 * C++ 
- * 作った関数など
+  * 作った関数など
 * Linux
