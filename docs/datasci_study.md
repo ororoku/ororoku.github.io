@@ -32,6 +32,8 @@
 説得においては、古典だがアリストテレスの弁論術（Ethos, Logos, Pathos, Metaphor, Brevity）が参考になるだろう。
 [The Art of Persuasion Hasn’t Changed in 2,000 Years](https://hbr.org/2019/07/the-art-of-persuasion-hasnt-changed-in-2000-years)などを読んでみよう
 
+## 社会科学のディシプリンを身に付ける
+これは元物理屋として思うところであるが、
 
 ## プログラミングのオンライン教材をやる
 * PyQ 高いがちゃんとやれば力は付くと思う
