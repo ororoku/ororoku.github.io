@@ -39,8 +39,7 @@
 * Youtube 
 
 ## 書籍（と補助教材）をやる
-* [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
-pdf版は無料。[アルゴリズムのPython実装](https://github.com/ctgk/PRML) 
+* [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) おなじみPRML。pdf版無料公開。アルゴリズムのPython実装は[こちら](https://github.com/ctgk/PRML) 
 * [Think Stats]()
 
 ## Comptetitionに出る
