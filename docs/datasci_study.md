@@ -20,8 +20,10 @@
 [ロジカル・プレゼンテーション――自分の考えを効果的に伝える戦略コンサルタントの「提案の技術」   高田 貴久](https://www.amazon.co.jp/dp/4901234439/ref=cm_sw_r_tw_dp_U_x_YM9LEbZG2N5PK)
 に書かれていることが守破離の「守」であるだろう。
 
-そもそも何が問題なのか、どうすれば解決できるのか、分析すべきことは何なのかという、課題を発見して定義する能力も当然重要である。
+何が問題なのか、どうすれば解決できるのか、分析すべきことは何なのかという、課題を発見して定義する能力も当然重要である。
+> If I were given one hour to save the planet, I would spend 59 minutes defining the problem and one minute resolving it
 
+とはアインシュタインの言葉であるが、 [イシューからはじめよ――知的生産の「シンプルな本質」   安宅和人] (https://www.amazon.co.jp/dp/4862760856/ref=cm_sw_r_tw_dp_U_x_tmaMEbCYR6NVC)にも似たようなことが書いてあった。
 
 ## 良い資料を作る
 パワポ職人になることは避けては通れない。
