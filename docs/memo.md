@@ -1,7 +1,7 @@
 有用なリンクや覚え書きなど
 
 ## Data Science 
-* [自習用コンテンツ](datasci_study.md) 2020/04/16
+* [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
 ## Economics 
 * [Covid-19関連](network.md) 2020/04/15
@@ -12,11 +12,15 @@
 ## Physics (Natural Science)
 * 研究関連のビジネスまとめ
 * ILCプロジェクトについて
-* Booklist 
+
 
 ## Math
 * マスコレルAppendixの解説
 * ごちゃごちゃした関数の微分（対数微分の応用）[ファインマン物理数学](http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol5.pdf)のLecture3を参照
+
+## Reading & Writing
+* いい感じの言葉
+* 読書
 
 ## Tools
 * Vim
