@@ -26,15 +26,17 @@
 * プラスサムゲームの場合
   * 全体のパイを大きくすることを強調する。win-winの関係
 * どちらの場合でも重要なこと
-  * 相手の根源的な要望に気を配る
+  * 相手の根源的な要望（Why）に気を配る
   * 強力なプランBを用意しておく
 
-説得においては、古典的だがアリストテレスの弁論術（Ethos, Logos, Pathos, Metaphor, Brevity）が参考になるだろう。
+説得においては、古典だがアリストテレスの弁論術（Ethos, Logos, Pathos, Metaphor, Brevity）が参考になるだろう。
 [The Art of Persuasion Hasn’t Changed in 2,000 Years](https://hbr.org/2019/07/the-art-of-persuasion-hasnt-changed-in-2000-years)などを読んでみよう
 
 
 ## プログラミングのオンライン教材をやる
 * PyQ 高いがちゃんとやれば力は付くと思う
+* Cousera 
+* Youtube 
 
 ## 書籍（と補助教材）をやる
 * [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
