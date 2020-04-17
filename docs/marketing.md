@@ -5,6 +5,7 @@
 * Webマーケティング
 * Quantitative Marketing 
 * Qualitative Marketing 
+* ブランド・マーケティング
 
 ## Webマーケティングでよく使われる指標
 * PV (Page View)
@@ -27,6 +28,8 @@
 * CVRを上げたい
   - 離脱しそうな客を除く（分母を小さくする）
   - LPO(Landing Page Optimization)
+
+## discrete choice
 
 ## 参考文献
 * [マンガでわかるWebマーケティング 改訂版 Webマーケッター瞳の挑戦!   村上 佳代](https://www.amazon.co.jp/dp/B06WRWQ98X/ref=cm_sw_r_tw_dp_U_x_nkWIEbM4RDWXY)
