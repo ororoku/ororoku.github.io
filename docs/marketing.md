@@ -32,5 +32,6 @@
 ## discrete choice
 
 ## 参考文献
+* [社会調査法入門 (有斐閣ブックス)   盛山 和夫](https://www.amazon.co.jp/dp/4641183058/ref=cm_sw_r_tw_dp_U_x_jVCMEbP61S3A3)は、第一章「何のための社会調査か」がとても良く、社会調査は解釈であり、解釈とは意味世界を探求することだということを強調している。
 * [マンガでわかるWebマーケティング 改訂版 Webマーケッター瞳の挑戦!   村上 佳代](https://www.amazon.co.jp/dp/B06WRWQ98X/ref=cm_sw_r_tw_dp_U_x_nkWIEbM4RDWXY)
 * [現代マーケティング・リサーチ -- 市場を読み解くデータ分析   照井 伸彦](https://www.amazon.co.jp/dp/4641164169/ref=cm_sw_r_tw_dp_U_x_ibWIEb3Y6K5SV)
