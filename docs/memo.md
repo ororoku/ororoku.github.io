@@ -4,9 +4,10 @@
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
 ## Economics (incl. Business)
+* [資産運用の勉強](asset_management.md) 
 * [オンライン出会い系サービスまとめ](online_dating.md) 2020/04/20 
 * [Covid-19関連](covid19.md) 2020/04/15
-* [因果推論や構造推定について](causality.md) 2020/04/04
+* [因果推論の勉強](causality.md) 2020/04/04
 * [マーケティングの勉強](marketing.md) 2020/04/04
 * [Public Data](economic_activities.md) 2020/04/16
 
@@ -20,9 +21,10 @@
 * マスコレルAppendixの解説
 * ごちゃごちゃした関数の微分（対数微分の応用）[ファインマン物理数学](http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol5.pdf)のLecture3を参照
 
-## Reading & Writing
+## Hobbies
 * いい感じの言葉
 * 読書
+* 旅行
 
 ## Tools
 * Vim
