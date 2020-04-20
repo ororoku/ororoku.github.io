@@ -3,13 +3,14 @@
 ## Data Science 
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
-## Economics 
+## Economics (incl. Business)
+* [オンライン出会い系サービスまとめ](online_dating.md) 2020/04/20 
 * [Covid-19関連](covid19.md) 2020/04/15
 * [因果推論や構造推定について](causality.md) 2020/04/04
 * [マーケティングの勉強](marketing.md) 2020/04/04
 * [Public Data](economic_activities.md) 2020/04/16
 
-## Physics (Natural Science)
+## Physics (incl. Natural Science)
 * 研究関連のビジネスまとめ
 * 科学技術政策まとめ
 * 研究組織について
