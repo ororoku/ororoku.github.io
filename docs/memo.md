@@ -22,11 +22,6 @@
 * ごちゃごちゃした関数の微分（対数微分の応用）[ファインマン物理数学](http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol5.pdf)のLecture3を参照
 * 色々検索できるサイト <https://ja.wolframalpha.com/examples/mathematics/>
 
-## Hobbies
-* いい感じの言葉
-* 読書
-* 旅行
-
 ## Tools
 * Vim
   * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
@@ -36,3 +31,8 @@
 * C++ 
   * 作った関数など
 * Linux
+
+## Others
+* いい感じの言葉
+* 読書
+* 旅行
