@@ -1,3 +1,6 @@
+## 総務省
+* 産業連関表 <https://www.soumu.go.jp/toukei_toukatsu/data/io/index.htm>
+
 ## Measure of Aggregate Economic Activity 
 national accounts 
 * [US: Bureau of Economic Analysis](http://www.bea.gov/index.htm)
