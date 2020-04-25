@@ -71,11 +71,11 @@
 ## ITサービスの開発工程について理解する
 * ソフトウェア工学
 
-## プログラミングを身に付ける
+## プログラミングと数学を身に付ける
 以下のオンライン教材は助けになるかもしれない
 * PyQ 高いがちゃんとやれば力は付くと思う
 * Cousera 
-* Youtube 
+* データサイエンティストVtuberの[Aicia Solid Project](https://www.youtube.com/channel/UC2lJYodMaAfFeFQrGUwhlaQ/playlists) ベイズ統計の回を見たが、分かりやすかった
 
 以下の書籍を読んで、補助教材もやってみよう
 * リーダブルコード
