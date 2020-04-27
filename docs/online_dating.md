@@ -1,11 +1,12 @@
 # オンライン出会い系サービスまとめ
 Covid-19によってオンライン出会い系サービスが盛り上がっているのでまとめてみた。
+（騒動以前からあったものも含む）
 
 ## Zoom飲み会の開き方
 * 
 
 ## ビジネス
-* 
+* 同世代の3人でランチを食べられるサービス <https://c-table.co.jp/works/three/>
 
 ## 論文
 * [Matching and sorting in online dating](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.100.1.130)
