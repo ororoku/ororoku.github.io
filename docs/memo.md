@@ -13,8 +13,7 @@
 * [Public Data](economic_activities.md) 2020/04/16
 
 ## Physics (incl. Natural Science)
-* [研究関連のビジネスまとめ](st_business.md)
-* 科学技術政策まとめ
+* [科学技術政策・研究関連のビジネスまとめ](st_business.md)
 * 研究組織について
 * ILCプロジェクトについて
 
