@@ -8,3 +8,5 @@ PhD, Physics -> MA, Economics -> Data Scientist
 
 
 [memo](docs/memo.md)
+
+[github repository](https://github.com/ororoku/ororoku.github.io)
