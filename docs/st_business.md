@@ -3,7 +3,13 @@
 ## 以前起案したもの
 
 
-## 公的な学術支援策まとめ
+## 公的な取り組み
+* 経産省管轄
+  * 産学官連携 <https://www.meti.go.jp/policy/innovation_corp/top-page.html> 委託調査の結果もここ
+  * 経産省の若手官僚による提言 <https://www.meti.go.jp/press/2020/04/20200422001/20200422001.html> わりと抽象的
+* JST
+  * 産学官連携ジャーナル <https://sangakukan.jst.go.jp/journal/?fbclid=IwAR2CteDhJ9kbA1QleQO6hrxBUtzEBPK_EoyqOo6ywyeD2bADpo6t_vb-EDk> 月1で発行
+
 
 ## 大学の情報・学生の進路選択に役立ちそうなサービス
 
