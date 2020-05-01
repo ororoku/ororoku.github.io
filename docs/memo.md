@@ -1,6 +1,7 @@
 有用なリンクや覚え書きなど
 
 ## Data Science 
+* [分析でよくやること](ana_procedure.md) 2020/05/01
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
 ## Economics (incl. Business)
@@ -30,7 +31,6 @@
 * Python 
   * 公式チュートリアル <https://docs.python.org/ja/3/tutorial/appetite.html>
   * Julia, Matlabとの変換チートシート <https://cheatsheets.quantecon.org/>
-  * 分析でよくやること
   * 作った関数など
 * C++ 
   * 作った関数など
