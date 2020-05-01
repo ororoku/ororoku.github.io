@@ -28,10 +28,13 @@
   * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
   * 解説動画 youtubeのやつ
 * Python 
+  * 公式チュートリアル <https://docs.python.org/ja/3/tutorial/appetite.html>
   * 作った関数など
 * C++ 
   * 作った関数など
+* ROOT 
 * Linux
+* Stata 
 
 ## Others
 * いい感じの言葉
