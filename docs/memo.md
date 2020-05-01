@@ -29,6 +29,7 @@
   * 解説動画 youtubeのやつ
 * Python 
   * 公式チュートリアル <https://docs.python.org/ja/3/tutorial/appetite.html>
+  * Julia, Matlabとの変換チートシート <https://cheatsheets.quantecon.org/>
   * 分析でよくやること
   * 作った関数など
 * C++ 
