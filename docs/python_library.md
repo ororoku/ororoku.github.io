@@ -1,6 +1,21 @@
 # 作った関数など（Python）
 基本的に自分用
 
+## Jupyter notebookのTips
+よくimportするもの
+```Python
+# -*- coding: utf-8 -*-
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+import pandas as pd
+import numpy as np
+
+from IPython.core.display import display, HTML
+display(HTML("<style>.container { width:100% !important; }</style>"))
+pd.set_option("display.max_columns",150)
+```
+
 ## 判別分析
 
 ## 自然言語処理
