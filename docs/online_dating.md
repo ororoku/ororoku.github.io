@@ -5,10 +5,15 @@ Covid-19によってオンライン出会い系サービスが盛り上がって
 ## Zoom飲み会の開き方
 * 
 
-## ビジネス
+## 面白そうなビジネス
 * 同世代の3人でランチを食べられるサービス <https://c-table.co.jp/works/three/>
 
+## マッチングやレコメンドの理論について
+
+### 
+
 ## 論文
+一般的なサーチマッチング理論、労働問題、online dating serviceなどで以下の論文が参考になると思われる
 * [Matching and sorting in online dating](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.100.1.130)
 は、サーチ理論に基づいてfrictionを推定している。ほぼefficientにマッチングしているということが分かった様だ。
 
