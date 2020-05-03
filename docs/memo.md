@@ -37,6 +37,9 @@
 * ROOT 
 * Linux
 * Stata 
+* Latex
+  * クラウド上で編集とコンパイルが出来るサイト 
+  * VS Codeでコンパイル出来る様に設定（MAC）
 
 ## Others
 * いい感じの言葉
