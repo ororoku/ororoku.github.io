@@ -11,7 +11,7 @@
 * [Covid-19関連](covid19.md) 2020/04/15
 * [因果推論の勉強](causality.md) 2020/04/04
 * [マーケティングの勉強](marketing.md) 2020/04/04
-* [Public Data](economic_activities.md) 2020/04/16
+* [Public Data](economic_activities.md) 2020/04/16 
 
 ## Physics (incl. Natural Science)
 * [科学技術政策・研究関連のビジネスまとめ](st_business.md)
@@ -24,7 +24,10 @@
 * 数学用語を色々検索できる <https://ja.wolframalpha.com/examples/mathematics/>
 * 手書き文字をLatexに変換できる <https://webdemo.myscript.com/views/math/index.html#>
 
-## Tools
+## Writing 
+* 英語の表現を確認するのに便利なサイト <https://hypcol.marutank.net/ja/> ArXivの英語表現を検索して頻度別に表示
+
+## Softwares
 * Vim
   * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
   * 解説動画 youtubeのやつ
