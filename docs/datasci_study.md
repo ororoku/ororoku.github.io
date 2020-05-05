@@ -76,6 +76,7 @@
 * PyQ 高いがちゃんとやれば力は付くと思う
 * Cousera 
 * データサイエンティストVtuberの[Aicia Solid Project](https://www.youtube.com/channel/UC2lJYodMaAfFeFQrGUwhlaQ/playlists) ベイズ統計の回を見たが、分かりやすかった
+* Intro to Computer Science <https://classroom.udacity.com/courses/cs101>
 
 以下の書籍を読んで、補助教材もやってみよう
 * リーダブルコード
