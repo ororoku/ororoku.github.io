@@ -15,6 +15,7 @@
 
 ## Physics (incl. Natural Science)
 * [科学技術政策・研究関連のビジネスまとめ](st_business.md)
+* [基礎研究の予算削減について](research_budget.md)
 * 研究組織について
 * ILCプロジェクトについて
 
