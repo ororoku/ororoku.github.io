@@ -1,12 +1,15 @@
 # 科学技術政策・研究関連のビジネスまとめ
 
-## 以前起案したもの
-
+## 以前起案したもの（Private）
+* issues <https://paper.dropbox.com/doc/SANGAKU-issues--AzmQsDkJgiMnlmkOV_9qdLSPAQ-0f99sAAhUQOPybeni08gl> 
 
 ## 公的な取り組み
-* 経産省管轄
+管轄組織で分けると
+* 経産省
   * 産学官連携 <https://www.meti.go.jp/policy/innovation_corp/top-page.html> 委託調査の結果もここ
   * 経産省の若手官僚による提言 <https://www.meti.go.jp/press/2020/04/20200422001/20200422001.html> わりと抽象的
+* 内閣府
+  * ムーンショット目標 <https://www8.cao.go.jp/cstp/moonshot/sub1.html> 2050年までに、人が身体、脳、空間、時間の制約から解放された社会を実現
 * JST
   * 産学官連携ジャーナル <https://sangakukan.jst.go.jp/journal/?fbclid=IwAR2CteDhJ9kbA1QleQO6hrxBUtzEBPK_EoyqOo6ywyeD2bADpo6t_vb-EDk> 月1で発行
 
