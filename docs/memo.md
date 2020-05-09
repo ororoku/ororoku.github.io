@@ -21,6 +21,7 @@
 * ILCプロジェクトについて
 
 ## Math
+* [ABC予想や数学の研究について](abc_math.md)
 * マスコレルAppendixの解説
 * ごちゃごちゃした関数の微分（対数微分の応用）[ファインマン物理数学](http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol5.pdf)のLecture3を参照
 * 数学用語を色々検索できる <https://ja.wolframalpha.com/examples/mathematics/>
