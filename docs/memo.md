@@ -55,4 +55,4 @@
 * 読書
 * [旅行](travel.md) 2020/05/03
 
-[top](../../index.md)
+[top](https://ororoku.github.io/)
