@@ -1,7 +1,7 @@
-# 作った関数など（Python）
+# Python Tips
 基本的に自分用
 
-## Jupyter notebookのTips
+## Jupyter notebook
 よく最初に書いておくもの
 ```Python
 # -*- coding: utf-8 -*-
@@ -23,3 +23,6 @@ pd.set_option("display.max_columns",150)
 
 ## 因果推論
 * 交絡因子がある場合の因果効果推定 <https://colab.research.google.com/drive/1IMmdrQCK5aNvgJL65DyFMSrl9a-t7bN_>
+
+## その他
+作った関数など
