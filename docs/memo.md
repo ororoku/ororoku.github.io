@@ -38,7 +38,7 @@
 * Python 
   * 公式チュートリアル <https://docs.python.org/ja/3/tutorial/appetite.html>
   * Julia, Matlabとの変換チートシート <https://cheatsheets.quantecon.org/>
-  * [作った関数など](python_library.md)
+  * [Tips](python_tips.md)
   * [エラー備忘録](python_errors.md)
 * C++ 
   * 作った関数など
