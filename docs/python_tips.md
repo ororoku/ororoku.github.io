@@ -1,6 +1,18 @@
 # Python Tips
 基本的に自分用
 
+## 環境構築
+
+### パッケージの一括インストール
+pipでPythonのパッケージ（ライブラリ）を管理している場合、`pip install -r requirements.txt`で指定のパッケージを一括でインストールすることが出来る。
+
+よく使う設定ファイル`requirements.txt`の例は以下の通り。
+```Python
+
+```
+
+現在の環境にインストールされたパッケージとバージョンを設定ファイルの形式で出力するには、`pip freeze`コマンドを使う。
+
 ## Jupyter notebook
 よく最初に書いておくもの
 ```Python
