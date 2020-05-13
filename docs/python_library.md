@@ -2,7 +2,7 @@
 基本的に自分用
 
 ## Jupyter notebookのTips
-よくimportするもの
+よく最初に書いておくもの
 ```Python
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
