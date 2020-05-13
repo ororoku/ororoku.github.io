@@ -1,7 +1,7 @@
 有用なリンクや覚え書きなど
 
 ## Data Science 
-* [分析でよくやること](analysis_procedure.md) 2020/05/01
+* [分析の進め方](analysis_procedure.md) 2020/05/01
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
 ## Economics (incl. Business)
