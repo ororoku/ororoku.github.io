@@ -17,7 +17,7 @@
 ## Physics (incl. Natural Science)
 * [科学技術政策・研究関連のビジネスまとめ](st_business.md) 2020/05/09
 * [基礎研究の予算削減について](research_budget.md) 2020/05/09
-* [オープンサイエンスについて](open_science.md)
+* [オープンサイエンスについて](open_academia.md)
 * 研究組織について
 * ILCプロジェクトについて
 
