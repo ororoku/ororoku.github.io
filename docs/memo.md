@@ -20,6 +20,7 @@
 * [基礎研究の予算削減について](research_budget.md) 2020/05/09
 * 研究組織について
 * ILCプロジェクトについて
+* GeantやROOT
 
 ## Math
 * [ABC予想や数学の研究について](abc_math.md)
@@ -42,7 +43,6 @@
   * [エラー備忘録](python_errors.md)
 * C++ 
   * 作った関数など
-* ROOT 
 * Linux
 * Stata 
 * Latex
@@ -50,6 +50,8 @@
   * VS Codeでコンパイル出来る様に設定（MAC）
 * VS Code
   * snippetなど
+* Git
+  * [Tips](git_tips.md)
 
 ## Others
 * いい感じの言葉
