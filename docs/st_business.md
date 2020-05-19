@@ -1,6 +1,7 @@
 # 科学技術政策・研究関連のビジネスまとめ
 
 ## 以前起案したもの（Private）
+* まとめ <https://paper.dropbox.com/doc/sangaku--A0OflzF9_Lbs1sL9~6dmiPe7Ag-FGtYZrdQnc7ct9cjGv9Em>
 * issues <https://paper.dropbox.com/doc/SANGAKU-issues--AzmQsDkJgiMnlmkOV_9qdLSPAQ-0f99sAAhUQOPybeni08gl> 
 
 ## 公的な取り組み
