@@ -36,9 +36,8 @@
 ソースコードはだいたいプライベート
 
 * Kaggleなどで出来る人のコードを見る
-  * Network : QuantEconのnotebook
-  * EDA : 
-* EDA 
+  * Network : QuantEconのnotebook, <https://notes.quantecon.org/submission/5b32e9b0b9eab00015b89f7d>
+  * EDAや構成 : Covid-19のが分かりやすかった
 * 判別分析
   * 目的変数の割合と説明変数の分布を重ねてプロット  
 * 自然言語処理
