@@ -12,7 +12,7 @@
 * [Covid-19関連](covid19.md) 2020/04/15
 * [因果推論の勉強](causality.md) 2020/04/04
 * [マーケティングの勉強](marketing.md) 2020/04/04
-* [Public Data](economic_activities.md) 2020/04/16 
+* [使えそうなデータ](econ_data.md) 2020/05/22
 
 ## Physics (incl. Natural Science)
 * [オープンアカデミアについて](open_academia.md) 2020/05/17
