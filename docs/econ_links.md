@@ -1,4 +1,4 @@
-# 自習に役立ちそうなサイトまとめ
+# リンク集
 
 ## オンラインコースなど
 
@@ -7,3 +7,6 @@
   * Lecturesでは様々な経済学のモデルを実際に動かしながら学ぶことが出来る
   * Other Projectsもとても良い。QE Notesでは色々なケースのNotebookを見ることが出来る
   * 右上のNotebooksから一覧を見れる
+
+## その他
+* 大学院生の掲示板 <https://www.econjobrumors.com/>
