@@ -7,7 +7,7 @@
 ## Economics (incl. Business)
 * [論文サーヴェイのやり方](papers_survey.md) 2020/05/10
 * [資産運用の勉強](asset_management.md) 
-* [自習の役に立ちそうなサイトまとめ](econ_self_study.md) 2020/04/29
+* [リンク集](econ_links.md) 2020/05/29
 * [オンライン出会い系サービスまとめ](online_dating.md) 2020/04/20 
 * [Covid-19関連](covid19.md) 2020/04/15
 * [因果推論の勉強](causality.md) 2020/04/04
