@@ -68,6 +68,12 @@ from IPython.core.display import display, HTML
 display(HTML("<style>.container { width:100% !important; }</style>"))
 pd.set_option("display.max_columns",150)
 ```
+* 描画
+  * 設定をリセット
+  ```Python
+  import matplotlib as mpl
+  mpl.rcParams.update(mpl.rcParamsDefault)
+  ```
 
 ## Pandas 
 * AWSとの連携 
