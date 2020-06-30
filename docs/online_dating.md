@@ -19,8 +19,9 @@ Covid-19によってオンライン出会い系サービスが盛り上がって
 
 ## 論文
 一般的なサーチマッチング理論、労働問題、online dating serviceなどで以下の論文が参考になると思われる
+* \citet{ADACHI2003182}は、サーチコストが小さい時、ベルマン方程式を解いて得られる均衡解が、Gale Shapley的な意味でStableになっていることを示した。AbstractのThe polarization of interests between men and women appears as in Gale--Shapley marriage problems; as agents of one sex become more selective about their mates, agents of the other sex lose.の辺りを、もう少し読んでみたい（が無料では読めない、、）
 * [Matching and sorting in online dating](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.100.1.130)
-は、サーチ理論に基づいてfrictionを推定している。ほぼefficientにマッチングしているということが分かった様だ。
+は、実際のデータからfrictionを推定している。ほぼefficientにマッチングしているということが分かった様だ。
 
 ```
 @article{ADACHI2003182,
