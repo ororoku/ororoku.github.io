@@ -23,6 +23,23 @@ Covid-19によってオンライン出会い系サービスが盛り上がって
 は、サーチ理論に基づいてfrictionを推定している。ほぼefficientにマッチングしているということが分かった様だ。
 
 ```
+@article{ADACHI2003182,
+	Abstract = {In a decentralized marriage market there are different types of men and women. Agents sequentially search for mating partners and meet bilaterally in a random fashion. Upon meeting, the paired agents complete mating if both agree, and separate and continue searching otherwise. The polarization of interests between men and women appears as in Gale--Shapley marriage problems; as agents of one sex become more selective about their mates, agents of the other sex lose. As search costs disappear, the set of equilibrium outcomes in a search model reduces to the set of stable matchings in a corresponding Gale--Shapley marriage problem.},
+	Author = {Hiroyuki Adachi},
+	Doi = {https://doi.org/10.1016/S0022-0531(03)00085-1},
+	Issn = {0022-0531},
+	Journal = {Journal of Economic Theory},
+	Keywords = {Search, Two-sided matching, Stable matching, Gale--Shapley marriage problem},
+	Number = {2},
+	Pages = {182 - 198},
+	Title = {A search model of two-sided matching under nontransferable utility},
+	Url = {http://www.sciencedirect.com/science/article/pii/S0022053103000851},
+	Volume = {113},
+	Year = {2003},
+	Bdsk-Url-1 = {http://www.sciencedirect.com/science/article/pii/S0022053103000851},
+	Bdsk-Url-2 = {https://doi.org/10.1016/S0022-0531(03)00085-1}}
+
+
 @article{hitsch2010matching,
   title={Matching and sorting in online dating},
   author={Hitsch, Gunter J and Horta{\c{c}}su, Ali and Ariely, Dan},
