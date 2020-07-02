@@ -17,11 +17,22 @@ Covid-19によってオンライン出会い系サービスが盛り上がって
 
 プラットフォームの問題としては、両面のバランスを上手く取りながら収益をあげていく様な最適化問題となるだろう。
 
+## 分権的か集権的か
+
+### 分権的（自由にブラウズしてコミュニケーションする）サービス
+* Match.com
+* Yahoo!Personals
+
+### 集権的（"planner"がアルゴリズムによってマッチングさせる）サービス
+最近はこちらが主流？
+* eHarmony.com
+
 ## 論文
 一般的なサーチマッチング理論、労働問題、online dating serviceなどで以下の論文が参考になると思われる
 * \citet{ADACHI2003182}は、サーチコストが小さい時、ベルマン方程式を解いて得られる均衡解が、Gale Shapley的な意味でStableになっていることを示した。AbstractのThe polarization of interests between men and women appears as in Gale--Shapley marriage problems; as agents of one sex become more selective about their mates, agents of the other sex lose.の辺りを、もう少し読んでみたい（が無料では読めない、、）
 * [Matching and sorting in online dating](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.100.1.130)
 は、実際のデータからfrictionを推定している。ほぼefficientにマッチングしているということが分かった様だ。
+* ベルマンオペレーターの不動点を求めるやり方はKamihigashi 2014や経済セミナーの最適化特集を参照
 
 ```
 @article{ADACHI2003182,
