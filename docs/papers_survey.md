@@ -28,7 +28,7 @@ Dropbox + ipadではPDF expertで管理している
 他の候補
 * scrapbox
   * 使用例<https://scrapbox.io/gunosydm/>
-Zotero
+* Zotero
   * 使用例<https://qiita.com/Yarakashi_Kikohshi/items/39dfbf3059aaf0690761>
 
 ## 参考文献
