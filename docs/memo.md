@@ -59,5 +59,6 @@
 * [旅行](travel.md) 2020/05/03
 * パブリックドメインのアート画像集 <https://artvee.com/> 
 * 高画質で絵画を見れるサイト<https://www.haltadefinizione.com/en/> 
+* ipadを使った文献管理<lifehack_ipad_documents.md> 2020/07/03 
 
 [top](https://ororoku.github.io/)
