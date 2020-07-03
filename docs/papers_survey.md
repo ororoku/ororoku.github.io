@@ -7,7 +7,6 @@
 
 ## 論文の探し方
 * Google Scholar
-* 最近の
 
 ## 読む時に着目している点
 精読することにした論文は、以下の項目をメモしながら読む様にしている。
@@ -23,6 +22,14 @@
 * 気に入ったところ、気に入らないところ
 * どこが明確でなく、さらなる説明が必要か
 
+## 文献管理
+Dropbox + ipadではPDF expertで管理している
+
+他の候補
+* scrapbox
+  * 使用例<https://scrapbox.io/gunosydm/>
+Zotero
+  * 使用例<https://qiita.com/Yarakashi_Kikohshi/items/39dfbf3059aaf0690761>
 
 ## 参考文献
 * Referee Reportの書き方(Private) <C:\Users\Oroku\Dropbox\2015.12.ALectures\IO\CourseDescription.pdf>
