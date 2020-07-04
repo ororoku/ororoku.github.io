@@ -27,12 +27,15 @@ Covid-19によってオンライン出会い系サービスが盛り上がって
 最近はこちらが主流？
 * eHarmony.com
 
-## 論文解説
-[Matching and sorting in online dating](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.100.1.130)を解説する。
+## 論文紹介
+出会い系サービスを経済学的に考察したものとして、
+[Matching and sorting in online dating](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.100.1.130)を紹介する。
 
 ### 概要
 
 ### モデル
+
+*顕示選好の仮定*
 
 ### データ
 
