@@ -15,15 +15,14 @@
 * [使えそうなデータ](econ_data.md) 2020/05/22
 
 ## Physics (incl. Natural Science)
+* [研究の資金繰りについて](research_budget.md) 2020/07/07
+* [研究組織の（主に）質的調査サーヴェイ](research_org.md) 2020/07/07
 * [オープンアカデミアについて](open_academia.md) 2020/05/17
 * [科学技術政策・研究関連のビジネスまとめ](st_business.md) 2020/05/09
-* [基礎研究の予算削減について](research_budget.md) 2020/05/09
-* 研究組織について
 * ILCプロジェクトについて
-* GeantやROOT
 
 ## Math
-* [ABC予想や数学の研究について](abc_math.md)
+* [ABC予想や数学の研究について](abc_math.md) 2020/06
 * マスコレルAppendixの解説
 * ごちゃごちゃした関数の微分（対数微分の応用）[ファインマン物理数学](http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol5.pdf)のLecture3を参照
 * 数学用語を色々検索できる <https://ja.wolframalpha.com/examples/mathematics/>
