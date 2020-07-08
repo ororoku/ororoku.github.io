@@ -34,22 +34,17 @@ Covid-19によってオンライン出会い系サービスが盛り上がって
 ### 概要
 オンライン出会い系サイトのユーザー属性とインタラクションに関するデータを用いて、お互いの好みを推定し、Gale-Shapleyアルゴリズムを用いてマッチングを予測する。予測されたマッチは、出会い系サイトが達成した実際のマッチに似ており、実際のマッチはほぼ効率的である。
 
-### モデル
-*顕示選好の仮定*
+### 紹介スライド
+2020/07/06 勉強会にて解説
+<https://www.dropbox.com/s/tvihn0ohoh11w10/20200706_%E7%B5%8C%E6%B8%88%E5%AD%A6%E5%8B%89%E5%BC%B7%E4%BC%9A_%E5%A4%A7%E9%8C%B2.pptx?dl=0>
 
-
-### データ
-
-### 推定手法
-
-### 結論
-
-## 論文
+## 参考文献
 一般的なサーチマッチング理論、労働問題、online dating serviceなどで以下の論文が参考になると思われる
 * \citet{ADACHI2003182}は、サーチコストが小さい時、ベルマン方程式を解いて得られる均衡解が、Gale Shapley的な意味でStableになっていることを示した。AbstractのThe polarization of interests between men and women appears as in Gale--Shapley marriage problems; as agents of one sex become more selective about their mates, agents of the other sex lose.の辺りを、もう少し読んでみたい（が無料では読めない、、）
 * [Matching and sorting in online dating](https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.100.1.130)
 は、実際のデータからfrictionを推定している。ほぼefficientにマッチングしているということが分かった様だ。
 * ベルマンオペレーターの不動点を求めるやり方はKamihigashi 2014や経済セミナーの最適化特集を参照
+* Quant Econにも充実した説明がある
 
 ```
 @article{ADACHI2003182,
