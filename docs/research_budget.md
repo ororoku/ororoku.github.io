@@ -6,10 +6,13 @@
 ## 研究機関の国際比較
 私が行ったことがある素粒子物理学の研究所の、CERNとKEKで比較してみたい。
 
-### CERN（）
+### CERN
+英語版wikipediaによれば、予算規模は1,171 100万フラン、すなわち1000億程度
 
-### KEK（）
-
+### KEK
+財務の情報はこちらで公開されている
+<https://www.kek.jp/ja/disclosure/data/statements/index.html>
+CFの規模は300億程度
 
 ## References 
 * Nelson(1959)
