@@ -73,4 +73,15 @@ Covid-19によってオンライン出会い系サービスが盛り上がって
   pages={130--63},
   year={2010}
 }
+
+@article{kamihigashi2014elementary,
+  title={Elementary results on solutions to the Bellman equation of dynamic programming: existence, uniqueness, and convergence},
+  author={Kamihigashi, Takashi},
+  journal={Economic Theory},
+  volume={56},
+  number={2},
+  pages={251--273},
+  year={2014},
+  publisher={Springer}
+}
 ```
