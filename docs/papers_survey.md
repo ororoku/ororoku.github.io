@@ -1,9 +1,9 @@
 # 論文サーヴェイのやり方
 
 ## 進め方
-以下の様な感じでやっていく
+特に自分にとって新しい分野の場合、以下の様な感じでやっていくのが良いのでは無いだろうか
 * タイトルとアブストラクトで気になったものを100本集めてリストにする
-* 精読するものを選んで読む
+* 精読するものを選んで読む（出来ればここで詳しい人の目が入った方が良い）
 
 ## 論文の探し方
 * Google Scholar
@@ -31,7 +31,8 @@ Dropbox + ipadではPDF expertで管理している
 * Zotero
   * 使用例<https://qiita.com/Yarakashi_Kikohshi/items/39dfbf3059aaf0690761>
 
-## 参考文献
+## 参考
 * Referee Reportの書き方(Private) <C:\Users\Oroku\Dropbox\2015.12.ALectures\IO\CourseDescription.pdf>
 * 実証分析の進め方 <http://www2.kobe-u.ac.jp/~kawabat/ch19j_wooldridge.pdf> 
 * 若手研究者のための文献レビューの書き方指南 <https://www.editage.jp/insights/a-young-researchers-guide-to-writing-a-literature-review>
+* 書誌情報と論文PDFファイルの管理法<https://next49.hatenadiary.jp/entry/20140408/p1>
