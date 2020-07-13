@@ -29,7 +29,7 @@ Dropbox + ipadではPDF expertで管理している。
 * Dropbox直下に"Reference"フォルダを作る
 * ざっくりしたテーマごとにサブフォルダを作る
 * 論文のPDFファイルを放り込む
-* 「著者名_キーワード_会議or雑誌情報_発表年.pdf」にrenameする（これ自動化したい）
+* 「著者名_キーワード_会議or雑誌情報_発表年.pdf」などのフォーマットにrenameする（Mendeleyの機能で自動生成）
 * 同名.txtでメモを残す
 * bibファイルをMendeleyで自動生成して適宜使う
 
