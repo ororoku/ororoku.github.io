@@ -33,19 +33,18 @@ Dropbox + ipadではPDF expertで管理している。
 * ~同名.txtでメモを残す~
 * bibファイルをMendeleyで自動生成して適宜使う
 
-Mendeleyのメモは他アプリケーションでPDFを開くと見れないので、別のやり方を考えた方が良さそう。"Survey"や"ReadingList"などのタグで管理し、精読した論文は決まったフォーマットのtex文書を作って管理。
-論文一つ1ページ使って、上記フォーマットで整理していく。
+Mendeleyのメモは他アプリケーションでPDFを開くと見れないので、別のやり方を考えた方が良さそう。"Survey"や"ReadingList"などのタグで管理し、精読した論文は決まったフォーマットのレビューを作る（
+tex文書、上記フォーマットで論文一つ1ページ）。精読してレビューを作ったらMendeleyで既読にチェックを入れる
 
 [ ] 書籍や発表スライドをどうするかという問題は残るが、あとで考えよう
 
-他の文献管理ツールの候補としては、以下の様なものもあるらしい
-* scrapbox
-  * 使用例<https://scrapbox.io/gunosydm/>
-* Zotero
-  * 使用例<https://qiita.com/Yarakashi_Kikohshi/items/39dfbf3059aaf0690761>
 
 ## 参考
 * Referee Reportの書き方(Private) <C:\Users\Oroku\Dropbox\2015.12.ALectures\IO\CourseDescription.pdf>
 * 実証分析の進め方 <http://www2.kobe-u.ac.jp/~kawabat/ch19j_wooldridge.pdf> 
 * 若手研究者のための文献レビューの書き方指南 <https://www.editage.jp/insights/a-young-researchers-guide-to-writing-a-literature-review>
 * 書誌情報と論文PDFファイルの管理法<https://next49.hatenadiary.jp/entry/20140408/p1>
+* その他の文献管理ツールの候補
+  * scrapbox<https://scrapbox.io/gunosydm/>
+  * Zotero<https://qiita.com/Yarakashi_Kikohshi/items/39dfbf3059aaf0690761>
+
