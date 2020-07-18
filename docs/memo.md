@@ -46,9 +46,9 @@
 * Stata 
 * Latex
   * クラウド上で編集とコンパイルが出来るサイト 
-  * VS Codeでコンパイル出来る様に設定（MAC）
+  * VS Codeでコンパイル出来る様に設定（MAC） 参考<https://qiita.com/Gandats/items/d7718f12d71e688f3573>
 * VS Code
-  * snippetなど
+  * snippetなど 参考<https://docs.microsoft.com/ja-jp/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019>
 * Git
   * [Tips](git_tips.md)
 
