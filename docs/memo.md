@@ -15,6 +15,7 @@
 * [使えそうなデータ](econ_data.md) 2020/05/22
 
 ## Physics (incl. Natural Science)
+* [科学をめぐる言説](sts.md) 2020/08/04
 * [研究の資金繰りについて](research_budget.md) 2020/07/07
 * [研究組織の（主に）質的調査サーヴェイ](research_org.md) 2020/07/07
 * [オープンアカデミアについて](open_academia.md) 2020/05/17
