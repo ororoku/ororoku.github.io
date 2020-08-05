@@ -35,11 +35,11 @@
 ## よくやる分析
 ソースコードはだいたいプライベート
 
-* Kaggleなどで出来る人のコードを見る
-  * Network : QuantEconのnotebook, <https://notes.quantecon.org/submission/5b32e9b0b9eab00015b89f7d>
-  * EDAや構成 : Covid-19のが分かりやすかった
 * 判別分析
-  * 目的変数の割合と説明変数の分布を重ねてプロット  
+  * 目的変数の割合と説明変数の分布を重ねてプロット
+  * ロジスティック回帰
+  * Random Forest
+  * XgBoost
 * 自然言語処理
   * dataframeに対してlistを名寄せする <https://colab.research.google.com/drive/1Uv-TNiOKwPUSlqLZPxurgNUz2EIQT8MS#scrollTo=BluVjgsiX3GR>
 * 因果推論
@@ -48,5 +48,9 @@
 
 ## 参考資料
 * CRISP-DM
+* Kaggleなどで出来る人のコードを見る
+  * Network : QuantEconのnotebook, <https://notes.quantecon.org/submission/5b32e9b0b9eab00015b89f7d>
+  * EDAや構成 : Covid-19のが分かりやすかった
+
 
 
