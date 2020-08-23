@@ -5,6 +5,7 @@
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
 ## Economics (incl. Business)
+* [信用モデリングの勉強](credit_modeling.md) 2020/08/23 
 * [論文サーヴェイのやり方](papers_survey.md) 2020/07/03
 * [オンライン出会い系サービスまとめ](online_dating.md) 2020/07/03
 * [資産運用の勉強](asset_management.md) 
