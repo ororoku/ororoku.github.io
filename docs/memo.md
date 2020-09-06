@@ -4,7 +4,7 @@
 * [分析の進め方](analysis_procedure.md) 2020/05/01
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
-## Economics (incl. Business)
+## Social Science
 * [信用モデリングの勉強](credit_modeling.md) 2020/08/23 
 * [論文サーヴェイのやり方](papers_survey.md) 2020/07/03
 * [オンライン出会い系サービスまとめ](online_dating.md) 2020/07/03
@@ -16,7 +16,7 @@
 * [使えそうなデータ](econ_data.md) 2020/05/22
 * [経済学の勉強の記録](econ_study) 2016/03/31
 
-## Physics (incl. Natural Science)
+## Natural Science
 * [科学をめぐる言説](sts.md) 2020/08/04
 * [研究の資金繰りについて](research_budget.md) 2020/07/07
 * [研究組織の（主に）質的調査サーヴェイ](research_org.md) 2020/07/07
@@ -58,7 +58,7 @@
 ## Others
 * いい感じの言葉
 * 読書
-* [旅行](travel.md) 2020/05/03
+* [旅行](travel.md) 2020/09/05
 * パブリックドメインのアート画像集 <https://artvee.com/> 
 * 高画質で絵画を見れるサイト<https://www.haltadefinizione.com/en/> 
 
