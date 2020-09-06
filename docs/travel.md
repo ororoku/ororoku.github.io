@@ -1,3 +1,7 @@
+# 旅行でよく使うもの
+* [TripAdviser](https://www.tripadvisor.jp/Trips)
+
+
 # 行ったところや行きたいところ
 
 ## 日本
@@ -79,5 +83,3 @@
 * 南極大陸
   * [ ] 南極 よりもいの影響で行ってみたくなった。Icecube実験も見てみたい（これは北極だっけ？）
 
-## リンク集
-* TripAdviser
