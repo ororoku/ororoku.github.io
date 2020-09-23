@@ -44,3 +44,4 @@
 
 ## 学会など
 * 研究・イノベーション学会<https://jsrpim.jp/>
+* SciREX事業（文部科学省の補助事業）<https://scirex.grips.ac.jp/>
