@@ -38,11 +38,7 @@
 * Vim
   * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
   * 解説動画 youtubeのやつ
-* Python 
-  * 公式チュートリアル <https://docs.python.org/ja/3/tutorial/appetite.html>
-  * Julia, Matlabとの変換チートシート <https://cheatsheets.quantecon.org/>
-  * [Tips](python_tips.md)
-  * [エラー備忘録](python_errors.md)
+* [Python](softwares_python.md) 2020/10/01 
 * C++ 
   * 作った関数など
 * Linux
@@ -52,8 +48,7 @@
   * VS Codeでコンパイル出来る様に設定（MAC） 参考<https://qiita.com/Gandats/items/d7718f12d71e688f3573>
 * VS Code
   * snippetなど 参考<https://docs.microsoft.com/ja-jp/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019>
-* Git
-  * [Tips](git_tips.md)
+* [Git](softwares_git.md) 2020/10/01
 
 ## Others
 * いい感じの言葉
