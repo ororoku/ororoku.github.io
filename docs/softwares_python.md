@@ -1,8 +1,7 @@
 # Python
-- [Python](#Python)
-  - [Links](#Links)
-  - [Tips](#Tips)
-  - [Errors](#Errors)
+- [Links](#Links)
+- [Tips](#Tips)
+- [Errors](#Errors)
 
 ## Links
 
