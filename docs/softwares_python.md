@@ -8,6 +8,11 @@
 - [Errors](#Errors)
 
 ## Links
+よく使うリンク集
+
+* 公式チュートリアル <https://docs.python.org/ja/3/tutorial/appetite.html>
+* Julia, Matlabとの変換チートシート <https://cheatsheets.quantecon.org/>
+* PyQ
 
 ## Tips 
 
