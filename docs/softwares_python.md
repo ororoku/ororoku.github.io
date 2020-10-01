@@ -1,6 +1,12 @@
-# Python Tips
-基本的に自分用
+# Python
+- [Python](#Python)
+  - [Links](#Links)
+  - [Tips](#Tips)
+  - [Errors](#Errors)
 
+## Links
+
+## Tips 
 
 ## パッケージの一括インストール
 pipでPythonのパッケージ（ライブラリ）を管理している場合、`pip install -r requirements.txt`で指定のパッケージを一括でインストールすることが出来る。
@@ -115,3 +121,5 @@ df['DateStr'] = df['DateObj'].dt.strftime('%d%m%Y')
 ```Python
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
+
+## Errors
