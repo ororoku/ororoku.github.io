@@ -33,6 +33,7 @@
 
 ## Writing 
 * 英語の表現を確認するのに便利なサイト <https://hypcol.marutank.net/ja/> ArXivの英語表現を検索して頻度別に表示
+* [Langsmith Editor](https://editor.langsmith.co.jp/) アカデミック・ライティングのための執筆支援システム
 
 ## Softwares
 * Vim
