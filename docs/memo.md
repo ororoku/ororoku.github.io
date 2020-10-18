@@ -36,6 +36,7 @@
 * [Langsmith Editor](https://editor.langsmith.co.jp/) アカデミック・ライティングのための執筆支援システム
 
 ## Softwares
+* [MAC](softwares_mac.md) 2020/10/18
 * Vim
   * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
   * 解説動画 youtubeのやつ
