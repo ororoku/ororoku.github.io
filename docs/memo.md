@@ -5,7 +5,6 @@
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
 ## Social Science
-* [資産運用の勉強](asset_management.md) 2020/09/05
 * [信用モデリングの勉強](credit_modeling.md) 2020/08/23 
 * [論文サーヴェイのやり方](papers_survey.md) 2020/07/03
 * [オンライン出会い系サービスまとめ](online_dating.md) 2020/07/03
@@ -52,11 +51,5 @@
   * snippetなど 参考<https://docs.microsoft.com/ja-jp/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019>
 * [Git](softwares_git.md) 2020/10/01
 
-## Others
-* いい感じの言葉
-* 読書
-* [旅行](travel.md) 2020/09/05
-* パブリックドメインのアート画像集 <https://artvee.com/> 
-* 高画質で絵画を見れるサイト<https://www.haltadefinizione.com/en/> 
 
 [top](https://ororoku.github.io/)
