@@ -9,6 +9,7 @@
 * [コーネル大学の授業資料](http://www.cs.cornell.edu/courses/cs7792/2016fa/)
 * [DataRobotの解説記事](https://blog.datarobot.com/jp/causality_analysis_machine_learning) 
 * [川口さんの講義資料](https://kohei-kawaguchi.github.io/EmpiricalIO/production.html)
+* [因果推論のための計量経済学](https://sites.google.com/site/hirofumikurokawa/home/causal_inference)
 
 ## ライブラリ
 * EconML (Microsoft)
