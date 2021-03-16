@@ -31,6 +31,7 @@
 ただ、これだと汚くなりやすいらしい。参照<https://www.kabuku.co.jp/developers/python-pipenv-graph>
 
 #### Pipenv
+`pipenv`は`pip`と仮想環境を作成するための`venv`の両方の機能を兼ね備えたサードパーティ製のパッケージ管理ツールである。
 Pipenvを用いた仮想環境の構築
 Pipenvがインストールされていること前提
 
