@@ -1,7 +1,7 @@
 # Python
 - [Links](#Links)
 - [Tips](#Tips)
-  - [Modules and Packages](#Modules_and_Packages)
+  - [Modules and Packages](#ModulesandPackages)
   - [Pipenv](#pipenv)
   - [jupyter](#jupyter)
   - [pandas](#pandas)
