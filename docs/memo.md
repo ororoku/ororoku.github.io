@@ -1,6 +1,7 @@
 有用なリンクや覚え書きなど
 
 ## Data Science 
+* [リンク集](ds_links) 2021/06/06
 * [分析の進め方](analysis_procedure.md) 2020/05/01
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
