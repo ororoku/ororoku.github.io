@@ -9,7 +9,8 @@
 
 ### 特許
 * PATSTAT(EPO) 
-* IIP(JP) 
+* IIPパテントDB https://www.iip.or.jp/patentdb/ 
+  * 特許庁の整理標準化データを基に特許統計分析用に開発されたDB
 * [Google Public Patent data](https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data)
 
 
