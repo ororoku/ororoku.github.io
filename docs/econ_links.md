@@ -38,7 +38,7 @@ cross-country databases
 
 ## Courses
 * Coursera
-  * "Social and Economic Networks: Models and Analysis" by Mat.Jackson (https://www.coursera.org/learn/social-economic-networks)
+  * "Social and Economic Networks: Models and Analysis" by Mat.Jackson https://www.coursera.org/learn/social-economic-networks
 
 ## Others
 * 大学院生の掲示板 <https://www.econjobrumors.com/>
