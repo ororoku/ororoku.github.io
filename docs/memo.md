@@ -12,7 +12,6 @@
 * [Covid-19関連](covid19.md) 2020/04/15
 * [因果推論の勉強](causality.md) 2020/04/04
 * [マーケティングの勉強](marketing.md) 2020/04/04
-* [使えそうなデータ](econ_data.md) 2020/05/22
 * [経済学の勉強の記録](econ_study.md) 2016/03/31
 
 ## Natural Science
