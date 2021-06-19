@@ -7,32 +7,25 @@
 
 ## Data
 
-### 特許
-* PATSTAT(EPO) 
-* IIPパテントDB https://www.iip.or.jp/patentdb/ 
-  * 特許庁の整理標準化データを基に特許統計分析用に開発されたDB
-* [Google Public Patent data](https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data)
-
-
-### Public Data (JP)
-総務省
+### JP
+* GDP統計・景気統計 <https://www.esri.cao.go.jp/index.html>
 * 産業連関表 <https://www.soumu.go.jp/toukei_toukatsu/data/io/index.htm>
-
-経済産業省
 * Resas <https://resas.go.jp/> 
-  * 産業構造や人口動態、人の流れなどの官民ビッグデータ. Tableauっぽい可視化
+  * 経済産業省が提供する、産業構造や人口動態・人の流れなどの官民ビッグデータ。Tableauの様な可視化
+* :newspaper_roll: IIPパテントDB <https://www.iip.or.jp/patentdb/>
+  * 特許庁の整理標準化データを基に特許統計分析用に開発されたDB
 
-### 国民統計
-national accounts 
-* [US: Bureau of Economic Analysis](http://www.bea.gov/index.htm)
-* [Japan: Economic and Social Research Institute](http://www.esri.go.jp/index-e.html)
+### US
+* GDP統計など <https://www.bea.gov/>
 
-cross-country databases
-* [Penn World Table](https://pwt.sas.upenn.edu/php_site/pwt_index.php)
-* [UN](http://unstats.un.org/unsd/nationalaccount/data.asp)
+### Cross-country
+* Penn World Table <https://pwt.sas.upenn.edu/php_site/pwt_index.php>
+* UN <http://unstats.un.org/unsd/nationalaccount/data.asp>
+* AWS <https://registry.opendata.aws/>
+* :newspaper_roll: PATSTAT <https://data.epo.org/expert-services/index.html>
+  * European Patent Office (EPO)が提供する特許データ
+* :newspaper_roll: Google Public Patent data <https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data>
 
-### from Private Firms 
-* [AWS](https://registry.opendata.aws/)
 
 ## Code
 * [QuantEcon](https://quantecon.org/)
@@ -43,8 +36,7 @@ cross-country databases
   * 論文のデータと解析コードなど
 
 ## Courses
-Coursera
-* "Social and Economic Networks: Models and Analysis" by Mat.Jackson https://www.coursera.org/learn/social-economic-networks
+* "Social and Economic Networks: Models and Analysis" by Mat.Jackson <https://www.coursera.org/learn/social-economic-networks>
 
 ## Others
 * 大学院生の掲示板 <https://www.econjobrumors.com/>
