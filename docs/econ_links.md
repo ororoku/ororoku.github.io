@@ -14,6 +14,7 @@
   * 経済産業省が提供する、産業構造や人口動態・人の流れなどの官民ビッグデータ。Tableauの様な可視化
 * :newspaper_roll: IIPパテントDB <https://www.iip.or.jp/patentdb/>
   * 特許庁の整理標準化データを基に特許統計分析用に開発されたDB
+* 産業生産性(JIP)など政策分析用データベース<https://www.rieti.go.jp/jp/database/index.html>
 
 ### US
 * GDP統計など <https://www.bea.gov/>
