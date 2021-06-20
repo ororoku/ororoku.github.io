@@ -25,14 +25,14 @@
 * どこが明確でなく、さらなる説明が必要か
 
 ## 文献管理
-DropboxとPDF expert（ipad）で管理している。
+OneDriveとPDF expert（ipad）で管理している。
 
 あまりツールに依存したくは無いが、以下の様な方針で管理してみようと思う
-* Dropbox直下に"Reference"フォルダを作る
+* OneDrive内に"Reference"フォルダを作る
 * ざっくりしたテーマごとにサブフォルダを作る
 * 論文のPDFファイルを放り込む
 * 「著者名_キーワード_会議or雑誌情報_発表年.pdf」などのフォーマットにrenameする（Mendeleyの機能で自動生成）
-* ~同名.txtでメモを残す~ GitHubのissuesで管理 
+* ~同名.txtでメモを残す~ ~GitHubのissuesで管理~ Mac純正のメモアプリでメモを残す 
 * bibファイルをMendeleyで自動生成して適宜使う
 
 Mendeleyのメモは他アプリケーションでPDFを開くと見れないので、別のやり方を考えた方が良さそう。"Survey"や"ReadingList"などのタグで管理し、精読した論文は決まったフォーマットのレビューを作る（
