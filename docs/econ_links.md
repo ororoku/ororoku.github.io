@@ -26,7 +26,8 @@
 * :newspaper_roll: PATSTAT <https://data.epo.org/expert-services/index.html>
   * European Patent Office (EPO)が提供する特許データ
 * :newspaper_roll: Google Public Patent data <https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data>
-
+* 🧑‍🎓 天体物理データシステム（Astrophysics Data System、ADS）<https://ui.adsabs.harvard.edu/>
+  * NASAが提供する、天文学・物理学の論文DB
 
 ## Code
 * [QuantEcon](https://quantecon.org/)
