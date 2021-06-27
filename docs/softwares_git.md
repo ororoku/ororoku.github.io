@@ -8,19 +8,16 @@
 ### .gitignore
 秘匿しておきたいファイルやキャッシュなどの一時ファイルなど git リポジトリのバージョン管理から特定のファイルやフォルダを除外したいときには .gitignore ファイルを作成する。リポジトリのルート直下に .gitignore ファイルを置くことによって、配下のディレクトリに再帰的に設定が適用される。
 
-自分で書いても良いが、出来合いのものを利用すると便利である。
-* <https://www.gitignore.io/>
-* <https://github.com/github/gitignore>
+例えば macOSだと、finder のメタ情報を持つ .DS_store がディレクトリの至るところに作成されるので除外設定しておく。
 
-また、　gibo　を使えば以下の様に .gitignore ファイルを自動生成できる
+自分で書いても良いが、出来合いのものを利用すると便利である。
+* <https://www.gitignore.io/> は Python macOS などと入力することで生成してくれる。
+* <https://github.com/github/gitignore> にも代表的なものがコレクションされている。
+
+また、 gibo を使って以下の様に生成することも出来る。
 ```
 gibo python >> .gitignore 
 ```
-
-Mac だと, finder のメタ情報を持つ .DS_store がディレクトリの至るところに作成されるので除外設定しておく。
-自分がよく使う設定を gist に置く。
-
-### 
 
 ## Errors
 
