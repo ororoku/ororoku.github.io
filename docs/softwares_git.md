@@ -25,7 +25,7 @@
 #ディレクトリ build 配下の全てのファイルを除外
 build/
 
-#例えば、doc/notes.txt を除外するが, doc/server/arch.txt は除外しない
+#doc/notes.txt を除外するが, doc/server/arch.txt は除外しない
 doc/*.txt
 
 #doc/配下の全ての .pdf ファイルを除外する doc/a.pdf, doc/a/a.pdf なども含む
