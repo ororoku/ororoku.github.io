@@ -12,7 +12,7 @@
 * <https://www.gitignore.io/>
 * <https://github.com/github/gitignore>
 
-また、 gibo　を使えば以下コマンドで .gitignore ファイルを自動生成できる
+また、　gibo　を使えば以下の様に .gitignore ファイルを自動生成できる
 ```
 gibo python >> .gitignore 
 ```
