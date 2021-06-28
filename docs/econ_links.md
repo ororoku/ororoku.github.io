@@ -28,6 +28,7 @@
 * :newspaper_roll: Google Public Patent data <https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data>
 * 🧑‍🎓 天体物理データシステム（Astrophysics Data System、ADS）<https://ui.adsabs.harvard.edu/>
   * NASAが提供する、天文学・物理学の論文DB
+* 🧑‍🎓 JSTOR Data for research(DfR) <https://guides.smu.edu/jstordfr>
 
 ## Code
 * [QuantEcon](https://quantecon.org/)
