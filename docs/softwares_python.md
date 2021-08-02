@@ -1,10 +1,8 @@
 # Python
 - [Links](#Links)
 - [Tips](#Tips)
-  - [pip](#pip)
-  - [Pipenv](#pipenv)
-  - [jupyter](#jupyter)
-  - [pandas](#pandas)
+  - [Jupyter Notebook](#jupyter)
+  - [Modules and Packages](#modules)
 - [Errors](#Errors)
 
 ## Links
@@ -18,8 +16,38 @@
 
 ## Tips 
 
+### Jupyter Notebook
+* よく最初に書いておくもの
+```Python
+# -*- coding: utf-8 -*-
+import matplotlib.pyplot as plt
+%matplotlib inline
 
-### pip
+import pandas as pd
+import numpy as np
+
+from IPython.core.display import display, HTML
+display(HTML("<style>.container { width:100% !important; }</style>")) # セル幅を全画面に拡大
+pd.set_option("display.max_columns",150) # Pandasのdataframeを150カラムまでは表示
+```
+
+* ショートカット
+  * notebook画面でEscキーを押してコマンドモードに入る -> hキーを押せばショートカット一覧がポップアップ
+  * コマンドモードで``Shift + m`` 選択したセルの結合
+  * コマンドモードで``d, d`` 選択したセルの削除
+  * コマンドモードで``z`` セル削除の取り消し
+  * エディットモードで``Shift + Tab``  Docstringの表示
+  * エディットモードで``Command + /``  選択行のコメントon/off
+
+* Magic Command (%から始まるもの) 
+  * 末尾に?を付けるか``Shift + Tab``でDocstringを表示可能
+  * ``%whos``　オブジェクトの一覧を表示
+
+* 拡張機能
+  * Table of Contentなどが便利
+
+### Modules and Packages
+#### pip
 `pip`はインターネットで公開されているPythonパッケージを取得するためのパッケージ管理ツールである。
 `pip`でPythonのパッケージ（ライブラリ）を管理している場合、`pip install -r requirements.txt`で指定のパッケージを一括でインストールすることが出来る。
 
@@ -31,7 +59,7 @@
 現在の環境にインストールされたパッケージとバージョンを設定ファイルの形式で出力するには、`pip freeze`コマンドを使う。
 ただ、これだと汚くなりやすいらしい。参照<https://www.kabuku.co.jp/developers/python-pipenv-graph>
 
-### Pipenv
+#### Pipenv
 `pipenv`は`pip`と仮想環境を作成するための`venv`の両方の機能を兼ね備えたサードパーティ製のパッケージ管理ツールである。
 Pipenvを用いた仮想環境の構築
 Pipenvがインストールされていること前提
@@ -72,30 +100,8 @@ Pipfile.lockもここで作成もしくはupdateされる
 参考にしたページ<https://qiita.com/shinshin86/items/e11c1124e3e2e74556b8> requirement.txtで管理しているプロジェクトに導入する方法も書いてある。
 
 
-### jupyter
-jupyter notebookについて
-* よく最初に書いておくもの
-  * セル幅を全画面に拡大
-  * Pandasのdataframeを150カラムまでは表示
-```Python
-# -*- coding: utf-8 -*-
-import matplotlib.pyplot as plt
-%matplotlib inline
-
-import pandas as pd
-import numpy as np
-
-from IPython.core.display import display, HTML
-display(HTML("<style>.container { width:100% !important; }</style>"))
-pd.set_option("display.max_columns",150)
-```
-
-* 知っておくと便利なもの
-  * Docstring ``Shift + Tab``で表示
-  * Magic Command (%から始まるもの) 
-  * 拡張機能 Table of Contentなどが便利
-
-### pandas
+#### 便利なパッケージ
+pandas
 * AWSとの連携 
   * sqlの実行結果をローカルで走らせたpythonのdataframeに取り込み
   * ローカルで走らせたpythonのdataframeをredshift上にtableとして生成
