@@ -73,7 +73,7 @@ Pipfile.lockもここで作成もしくはupdateされる
 
 
 ### jupyter
-Jupyter notebookについて
+jupyter notebookについて
 * よく最初に書いておくもの
   * セル幅を全画面に拡大
   * Pandasのdataframeを150カラムまでは表示
@@ -90,9 +90,10 @@ display(HTML("<style>.container { width:100% !important; }</style>"))
 pd.set_option("display.max_columns",150)
 ```
 
-* 知っておくと便利
-  * Docstring ``Shift + Tab``で利用可能
+* 知っておくと便利なもの
+  * Docstring ``Shift + Tab``で表示
   * Magic Command (%から始まるもの) 
+  * 拡張機能 Table of Contentなどが便利
 
 ### pandas
 * AWSとの連携 
