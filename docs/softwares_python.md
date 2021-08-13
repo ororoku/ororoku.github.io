@@ -3,7 +3,7 @@
 - [Tips](#Tips)
   - [IPython](#ipython)  
   - [Jupyter Notebook](#jupyternotebook)
-  - [Packages](#packages)
+  - [Packages](#packages) 
 - [Errors](#Errors)
 
 ## Links
@@ -185,6 +185,22 @@ df['DateStr'] = df['DateObj'].dt.strftime('%d%m%Y')
 ```Python
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
+* 結合の仕方
+```Python
+merge
+concat
+join
+append
+```
+
+* groupbyによる集約
+```Python
+nunique # 一意の値をカウント
+sum 
+mean 
+count
+```
+
 
 ## Errors
 エラー備忘録
