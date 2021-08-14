@@ -173,14 +173,18 @@ df=DataFrame([[2190,13378],[1904,8850],[5157,6197]],
 df.rename(columns = {'population':'pop'})
 df.rename(index = {'Tokyooo':'Tokyo', 'Chibaaa':'Chiba'})
 ```
-* 文字列と日付の変換・ラグ変数の作り方
+* 文字列と日付の変換
 ```Python
-df['date'] = pd.to_datetime(df["yyyymm"], format='%Y%m')
-df['date_lag'] = df['date'] - pd.offsets.DateOffset(months=2)
-df['yyyymm_lag'] = df['date_lag'].apply(lambda x: x.strftime('%Y%m'))
- 
+df['date'] = pd.to_datetime(df["yyyymm"], format='%Y%m') 
 df['DateStr'] = df['DateObj'].dt.strftime('%d%m%Y')
+df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
 ```
+
+* ラグ変数の作り方
+```Python
+df['date_lag'] = df['date'] - pd.offsets.DateOffset(months=1)
+```
+
 * 文字列型のNoneTypeを数値型のNaNに変換する
 ```Python
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
