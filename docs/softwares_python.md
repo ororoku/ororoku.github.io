@@ -182,7 +182,25 @@ df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
 
 * ラグ変数の作り方
 ```Python
+# ずらして結合
 df['date_lag'] = df['date'] - pd.offsets.DateOffset(months=1)
+
+# shiftを使うやり方 : 例えば会社ごとにラグ変数と移動平均を作る場合
+tmp_all = pd.DataFrame()
+
+for cat in set(df["company_id"]):
+    tmp = df[df["company_id"] == cat]
+    lag = pd.DataFrame() # ラグ変数
+    ma = pd.DataFrame() # 移動平均
+    for col in ('total_assets','cash_flow', 'ROE','other_vars'): # ラグ変数と移動平均を作りたい変数のリスト
+        for i in range(5):
+            lag["{}_lag{}".format(col, i+1)] = tmp[col].shift(i+1)
+            ma["{}_ma{}".format(col, i+1)] = tmp[col].shift(i+1).rolling(window=5).mean()
+    tmp2 = tmp[["company_id", "date"]].join(lag)
+    tmp2 = tmp2.join(ma)
+    tmp_all = pd.concat([tmp_all, tmp2])
+
+df = pd.merge(df, tmp_all, on = ["company_id", "date"], how = "left")
 ```
 
 * 文字列型のNoneTypeを数値型のNaNに変換する
