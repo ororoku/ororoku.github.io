@@ -2,8 +2,10 @@
 ホームページ用レポジトリ
 
 ## docs
-遷移先のページ
-[memo.md](docs/memo.md)が雑記帳のトップページ
+マークダウン置き場
 
-## assets
-ファイルなど
+## images
+画像ファイル置き場
+
+## notebooks
+notebook置き場
