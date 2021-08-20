@@ -15,6 +15,8 @@
 * Python Package Index(PyPI) <https://pypi.org/>
 * Julia, Matlabとの変換チートシート <https://cheatsheets.quantecon.org/>
 * ゼロから学ぶPython <https://rinatz.github.io/python-book/>
+* やさしいPython入門 <https://python.softmoco.com/basics/>
+  * 命名規則を調べるのに使った 
 * 東大のPython入門 <https://utokyo-ipp.github.io/> 
   * Colaboratoryによる演習 <https://colab.research.google.com/github/utokyo-ipp/utokyo-ipp.github.io/blob/master/colab/index.ipynb>
 * PEP8 : 推奨されるコーディング規約 <https://www.python.org/dev/peps/pep-0008/>
@@ -48,6 +50,31 @@
   Namespaces are one honking great idea -- let's do more of those!
 ```
 Source: https://github.com/python/peps/blob/master/pep-0020.txt
+
+#### 用語
+* パスカルケース（アッパーキャメルケース） 
+  * 最初の一文字と、各単語の最初の文字を大文字にする。 例: GetCurrentState
+* キャメルケース（ローワーキャメルケース）
+  * 各単語の最初の文字を大文字にする点はパスカルケースと同じだが、最初の一文字は小文字ではじめる。 例: getCurrentState
+* スネークケース
+  * 全部小文字で書き、単語と単語の間をアンダースコア _ でつなげる。 例: get_current_state
+* ケバブケース
+  * 全部小文字で書き、単語と単語の間をハイフン - でつなげる。 例: get-current-state
+
+#### 命名規則
+以下のものが推奨されている
+| 名前をつけるもの | 命名規則 | 例 |
+| ---- | ---- | ----  |
+| 変数 | スネークケース | variable_name |
+| 定数 | 全部大文字のスネークケース | CONSTANT_NAME |
+| グローバル変数 | スネークケース | global_variable_name |
+| 関数 | スネークケース | function_name |
+| 関数の引数 | スネークケース | function_parameter_name |
+| クラス | パスカルケース | ClassName |
+| インスタンス変数 | スネークケース | instance_variable_name |
+| メソッド | スネークケース | method_name |
+| パッケージ | スネークケース | package_name |
+| モジュール | スネークケース | module_name |
 
 ### IPython
 IPythonとは、Pythonの拡張された対話型シェルである。
