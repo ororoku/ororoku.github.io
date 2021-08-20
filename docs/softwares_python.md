@@ -1,6 +1,7 @@
 # Python
 - [Links](#Links)
 - [Tips](#Tips)
+  - [Coding Style](#codingstyle)
   - [IPython](#ipython)  
   - [Jupyter Notebook](#jupyternotebook)
   - [Packages](#packages) 
@@ -16,8 +17,37 @@
 * ゼロから学ぶPython <https://rinatz.github.io/python-book/>
 * 東大のPython入門 <https://utokyo-ipp.github.io/> 
   * Colaboratoryによる演習 <https://colab.research.google.com/github/utokyo-ipp/utokyo-ipp.github.io/blob/master/colab/index.ipynb>
+* PEP8 : 推奨されるコーディング規約 <https://www.python.org/dev/peps/pep-0008/>
+  * 日本語訳 <https://pep8-ja.readthedocs.io/ja/latest/> 
+* Googleのコーディング規約 <https://google.github.io/styleguide/pyguide.html>
 
 ## Tips 
+
+### Coding Style
+#### The Zen of Python
+
+```
+  Beautiful is better than ugly.
+  Explicit is better than implicit.
+  Simple is better than complex.
+  Complex is better than complicated.
+  Flat is better than nested.
+  Sparse is better than dense.
+  Readability counts.
+  Special cases aren't special enough to break the rules.
+  Although practicality beats purity.
+  Errors should never pass silently.
+  Unless explicitly silenced.
+  In the face of ambiguity, refuse the temptation to guess.
+  There should be one-- and preferably only one --obvious way to do it.
+  Although that way may not be obvious at first unless you're Dutch.
+  Now is better than never.
+  Although never is often better than *right* now.
+  If the implementation is hard to explain, it's a bad idea.
+  If the implementation is easy to explain, it may be a good idea.
+  Namespaces are one honking great idea -- let's do more of those!
+```
+Source: https://github.com/python/peps/blob/master/pep-0020.txt
 
 ### IPython
 IPythonとは、Pythonの拡張された対話型シェルである。
