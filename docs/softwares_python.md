@@ -23,6 +23,9 @@
   * 日本語訳 <https://pep8-ja.readthedocs.io/ja/latest/> 
 * Googleのコーディング規約 <https://google.github.io/styleguide/pyguide.html>
 
+書籍
+* 独習Python 
+
 ## Tips 
 
 ### Coding Style
