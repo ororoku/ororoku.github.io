@@ -40,6 +40,7 @@
   * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
   * 解説動画 youtubeのやつ
 * [Python](softwares_python.md) 2020/10/01 
+* [pandas](softwares_pandas.md) 2021/08/20
 * C++ 
   * 作った関数など
 * Linux
