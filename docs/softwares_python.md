@@ -2,6 +2,7 @@
 - [Links](#Links)
 - [Tips](#Tips)
   - [Coding Style](#codingstyle)
+  - [Semantics](#semantics)
   - [Data Structures](#datastructures)
   - [IPython](#ipython)  
   - [Jupyter Notebook](#jupyternotebook)
@@ -127,6 +128,23 @@ def who(vardict=None):
     """
 ```
 Source : https://github.com/numpy/numpy/blob/main/numpy/lib/utils.py
+
+### Semantics
+#### Operators
+「=」演算子による代入はC++などの言語とは異なり参照渡しになる。
+例えば
+```Python
+x = [1, 2]
+y = x.copy()
+y.append(3)
+
+w = [1, 2]
+z = w
+z.append(3)
+
+print(x, y)
+print(w,z)
+```
 
 ### Data Structures
 #### Sequencesと文字列
