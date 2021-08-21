@@ -23,6 +23,9 @@
 * PEP8 : 推奨されるコーディング規約 <https://www.python.org/dev/peps/pep-0008/>
   * 日本語訳 <https://pep8-ja.readthedocs.io/ja/latest/> 
 * Googleのコーディング規約 <https://google.github.io/styleguide/pyguide.html>
+* Docstrings style guides
+  * Google https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+  * numpy https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard
 
 書籍
 * 独習Python 
@@ -55,7 +58,7 @@
   If the implementation is easy to explain, it may be a good idea.
   Namespaces are one honking great idea -- let's do more of those!
 ```
-Source: https://github.com/python/peps/blob/master/pep-0020.txt
+Source : https://github.com/python/peps/blob/master/pep-0020.txt
 
 #### 用語
 * パスカルケース（アッパーキャメルケース） 
@@ -83,6 +86,47 @@ Source: https://github.com/python/peps/blob/master/pep-0020.txt
 | モジュール | スネークケース | module_name |
 
 #### docstring
+Sample 
+```
+def who(vardict=None):
+    """
+    Print the NumPy arrays in the given dictionary.
+    If there is no dictionary passed in or `vardict` is None then returns
+    NumPy arrays in the globals() dictionary (all NumPy arrays in the
+    namespace).
+    Parameters
+    ----------
+    vardict : dict, optional
+        A dictionary possibly containing ndarrays.  Default is globals().
+    Returns
+    -------
+    out : None
+        Returns 'None'.
+    Notes
+    -----
+    Prints out the name, shape, bytes and type of all of the ndarrays
+    present in `vardict`.
+    Examples
+    --------
+    >>> a = np.arange(10)
+    >>> b = np.ones(20)
+    >>> np.who()
+    Name            Shape            Bytes            Type
+    ===========================================================
+    a               10               80               int64
+    b               20               160              float64
+    Upper bound on total bytes  =       240
+    >>> d = {'x': np.arange(2.0), 'y': np.arange(3.0), 'txt': 'Some str',
+    ... 'idx':5}
+    >>> np.who(d)
+    Name            Shape            Bytes            Type
+    ===========================================================
+    x               2                16               float64
+    y               3                24               float64
+    Upper bound on total bytes  =       40
+    """
+```
+Source : https://github.com/numpy/numpy/blob/main/numpy/lib/utils.py
 
 ### Data Structures
 #### Sequencesと文字列
