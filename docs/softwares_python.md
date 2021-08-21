@@ -4,7 +4,8 @@
   - [Coding Style](#codingstyle)
   - [Semantics](#semantics)
   - [Data Structures](#datastructures)
-  - [IPython](#ipython)  
+  - [Functions](#functions)
+  - [IPython](#ipython)
   - [Jupyter Notebook](#jupyternotebook)
   - [Packages](#packages) 
 - [Errors](#Errors)
@@ -173,6 +174,13 @@ for i in {"TEST", "test"}:
 for i in "TEST", "test":
   print(i)
 ```
+### Functions
+
+#### namespace
+例えば、関数定義の外でxという変数を宣言していた場合、関数定義の中でxという変数を使う場合は以下の様なルールになるらしい
+* 関数定義の中でxを宣言しなかった場合 -> 外で宣言されたxを使う
+* 関数定義の中でxを宣言した場合 -> 中で宣言されたxを使う
+これは、バグの温床になりそう
 
 ### IPython
 IPythonとは、Pythonの拡張された対話型シェルである。
