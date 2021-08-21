@@ -2,6 +2,7 @@
 - [Links](#Links)
 - [Tips](#Tips)
   - [Coding Style](#codingstyle)
+  - [Data Structures](#datastructures)
   - [IPython](#ipython)  
   - [Jupyter Notebook](#jupyternotebook)
   - [Packages](#packages) 
@@ -25,6 +26,8 @@
 
 書籍
 * 独習Python 
+* Python for Data Analysis （邦訳 : Pythonによるデータ分析入門） 
+  * 2nd edition以降がPython3系に対応なので気をつけること
 
 ## Tips 
 
@@ -78,6 +81,36 @@ Source: https://github.com/python/peps/blob/master/pep-0020.txt
 | メソッド | スネークケース | method_name |
 | パッケージ | スネークケース | package_name |
 | モジュール | スネークケース | module_name |
+
+#### docstring
+
+### Data Structures
+#### Sequencesと文字列
+混乱しやすい点
+```Python
+print(type(("TEST")) == str,
+type(["TEST"]) == str,
+type({"TEST"}) == str, 
+type("TEST") == str)
+
+for i in ("TEST"):
+  print(i)
+for i in ["TEST"]:
+  print(i)
+for i in {"TEST"}:
+  print(i)
+for i in "TEST":
+  print(i)
+  
+for i in ("TEST", "test"):
+  print(i)
+for i in ["TEST", "test"]:
+  print(i)
+for i in {"TEST", "test"}:
+  print(i)
+for i in "TEST", "test":
+  print(i)
+```
 
 ### IPython
 IPythonとは、Pythonの拡張された対話型シェルである。
