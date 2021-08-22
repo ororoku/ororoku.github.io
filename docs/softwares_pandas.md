@@ -69,6 +69,26 @@ df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
 * ラグ変数の作り方
 例えば会社・月を複合主キーとするデータマートでnヶ月分のラグ変数と移動平均を作る場合
 ```Python
+# 会社IDと年月で擬似的にCross join
+ids = df["company_id"].unique()
+
+tmp_ids = pd.DataFrame(
+    {
+        "company_id":ids,
+        "crossjoinkey":1
+    }
+)
+
+tmp_years = pd.DataFrame(
+    {
+        "Year" : [i for i in range(1994, 2013)], 
+        "crossjoinkey" : 1
+    }
+)
+
+df_cross = pd.merge(tmp_ids, tmp_years, how="outer")
+del df_cross["crossjoinkey"]
+  
 # 愚直にずらして結合
 # n = 1, single-variable
 df['date_lag1'] = df['date'] - pd.offsets.DateOffset(months=1)
