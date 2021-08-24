@@ -41,6 +41,17 @@ df.rename(index = {'Tokyooo':'Tokyo', 'Chibaaa':'Chiba'})
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
 
+* 数値による条件抽出
+
+query メソッドを使うと便利。以下の二つの書き方が同じになる
+```Python
+df.query("A == 0")
+df.query("1 < A < 3")
+
+df[df["A"] == 0]
+df[(1 < df["A"]) & (df["A"] < 3)] 
+```
+
 ### Group Operations
 * 結合の仕方
 ```Python
