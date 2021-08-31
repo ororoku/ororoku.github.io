@@ -68,6 +68,7 @@ nunique # 一意の値をカウント
 sum 
 mean 
 count
+df.groupby("x").quantile(.75) # 上位25%パーセンタイル  
 ```
 
 ### Time Series
