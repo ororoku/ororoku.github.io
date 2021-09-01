@@ -35,13 +35,23 @@ df=DataFrame([[2190,13378],[1904,8850],[5157,6197]],
 df.rename(columns = {'population':'pop'})
 df.rename(index = {'Tokyooo':'Tokyo', 'Chibaaa':'Chiba'})
 ```
-### Data Transformation
+### DataTransformation
 * 文字列型のNoneTypeを数値型のNaNに変換する
 ```Python
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
 
-* 数値による条件抽出
+* 正規表現
+例えば「AA1234567B」を「AA1234567(B)」にしたい場合は以下の様にする
+```Python
+tmp = df["x"].str.extractall(r'([A-Z]{2}.+)([A-Z].*)').reset_index()
+tmp["x"] = tmp[0] + "(" + tmp[1] + ")"
+tmp.drop(columns={"level_0", "match", 0, 1}, inplace=True)
+df.rename(columns={"x":"x_org"}, inplace=True)
+df = df.join(tmp)
+```
+
+* 条件抽出
 
 query メソッドを使うと便利。以下の二つの書き方が同じになる
 ```Python
@@ -53,7 +63,7 @@ df[df["A"] == 0]
 df[(1 < df["A"]) & (df["A"] < 3)] 
 ```
 
-### Group Operations
+### GroupOperations
 * 結合の仕方
 ```Python
 merge
@@ -71,7 +81,7 @@ count
 df.groupby("x").quantile(.75) # 上位25%パーセンタイル  
 ```
 
-### Time Series
+### TimeSeries
 * 文字列と日付の変換
 ```Python
 df['date'] = pd.to_datetime(df["yyyymm"], format='%Y%m') 
@@ -129,7 +139,7 @@ for cat in set(df["company_id"]):
 df = pd.merge(df, tmp_all, on = ["company_id", "date"], how = "left")
 ```
 
-### Connecting Databases
+### ConnectingDatabases
 * AWSとの連携 
   * sqlの実行結果をローカルで走らせたpythonのdataframeに取り込み
   * ローカルで走らせたpythonのdataframeをredshift上にtableとして生成
