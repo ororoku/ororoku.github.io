@@ -42,6 +42,7 @@ df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
 
 * 正規表現
+* 
 例えば「AA1234567B」を「AA1234567(B)」にしたい場合は以下の様にする
 ```Python
 tmp = df["x"].str.extractall(r'([A-Z]{2}.+)([A-Z].*)').reset_index()
@@ -90,6 +91,7 @@ df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
 ```
 
 * ラグ変数の作り方
+
 例えば会社・月を複合主キーとするデータマートでnヶ月分のラグ変数と移動平均を作る場合
 ```Python
 # 会社IDと年月で擬似的にCross join
