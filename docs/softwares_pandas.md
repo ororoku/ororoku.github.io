@@ -42,7 +42,7 @@ df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
 
 * 正規表現
-* 
+
 例えば「AA1234567B」を「AA1234567(B)」にしたい場合は以下の様にする
 ```Python
 tmp = df["x"].str.extractall(r'([A-Z]{2}.+)([A-Z].*)').reset_index()
