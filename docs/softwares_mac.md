@@ -1,5 +1,4 @@
 # MAC
-# Python
 - [Links](#Links)
 - [Tips](#Tips)
 - [Errors](#Errors)
