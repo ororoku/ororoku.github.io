@@ -33,7 +33,7 @@
 * [Langsmith Editor](https://editor.langsmith.co.jp/) アカデミック・ライティングのための執筆支援システム
 
 ## Softwares
-* [MAC](softwares_mac.md) 2020/10/18
+* [Mac](softwares_mac.md) 2020/10/18
 * Vim
   * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
   * 解説動画 youtubeのやつ
@@ -41,7 +41,7 @@
 * [pandas](softwares_pandas.md) 2021/08/20
 * C++ 
   * 作った関数など
-* Linux
+* [Unix](softwares_unix.md) 2021/09/04 
 * Stata 
 * Latex
   * クラウド上で編集とコンパイルが出来るサイト 
