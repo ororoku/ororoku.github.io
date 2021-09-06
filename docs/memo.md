@@ -49,6 +49,7 @@
 * VS Code
   * snippetなど 参考<https://docs.microsoft.com/ja-jp/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019>
 * [Git](softwares_git.md) 2020/10/01
+* [Emacs](softwares_emacs.md) 2010/12/07
 
 
 [top](https://ororoku.github.io/)
