@@ -1,6 +1,7 @@
 # リンク集
 
-とりあえず全部まとめておく
+2021/11/05 
+本サイトで書いたリンクをとりあえず全部まとめておく
 
 - [Books](#Books)
 - [Data](#Data)
@@ -8,7 +9,19 @@
 - [Courses](#Courses)
 - [Others](#Others)
 
+## Study
+体系的に身に付けるのに役立つオンライン授業や動画など
+
+
+* "Social and Economic Networks: Models and Analysis" by Mat.Jackson <https://www.coursera.org/learn/social-economic-networks>
+* 数理・データサイエンス教育強化拠点コンソーシアム http://www.mi.u-tokyo.ac.jp/consortium/e-learning.html
+* [Deep Learning基礎講座演習コンテンツ 公開ページ | 東京大学松尾研究室 - Matsuo Lab](https://weblab.t.u-tokyo.ac.jp/deep-learning%E5%9F%BA%E7%A4%8E%E8%AC%9B%E5%BA%A7%E6%BC%94%E7%BF%92%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84-%E5%85%AC%E9%96%8B%E3%83%9A%E3%83%BC%E3%82%B8/)
+
+CS
+* コーディング面接対策のために解きたいLeetCode 60問 <https://1kohei1.com/leetcode/>
+
 ## Books
+参考書籍
 
 Data Science and Computer Science
 
@@ -54,7 +67,11 @@ Cross-country
 
 ## Code
 
-Data Science and Computer Science
+Computer Science
+* CS50 https://cs50.harvard.edu/x/2021/
+  * 日本語版 https://cs50.jp/
+
+Python
 * Matplotlib tutorial https://matplotlib.org/stable/tutorials/index.html
 * グラフ作成のためのチートシートとPythonによる各種グラフの実装<https://qiita.com/4m1t0/items/76b0033edb545a78cef5>
 * 10 minites to pandas <https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#viewing-data>
@@ -82,14 +99,6 @@ Econ
   * Raj.Chettyがやっているサイト
   * 論文のデータと解析コードなど
 
-
-## Courses
-
-* "Social and Economic Networks: Models and Analysis" by Mat.Jackson <https://www.coursera.org/learn/social-economic-networks>
-* 数理・データサイエンス教育強化拠点コンソーシアム http://www.mi.u-tokyo.ac.jp/consortium/e-learning.html
-* [Deep Learning基礎講座演習コンテンツ 公開ページ | 東京大学松尾研究室 - Matsuo Lab](https://weblab.t.u-tokyo.ac.jp/deep-learning%E5%9F%BA%E7%A4%8E%E8%AC%9B%E5%BA%A7%E6%BC%94%E7%BF%92%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84-%E5%85%AC%E9%96%8B%E3%83%9A%E3%83%BC%E3%82%B8/)
-* CS50 https://cs50.harvard.edu/x/2021/
-  * 日本語版 https://cs50.jp/
 
 ## Others
 * 大学院生の掲示板 <https://www.econjobrumors.com/>
