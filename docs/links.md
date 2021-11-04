@@ -3,10 +3,10 @@
 2021/11/05 
 本サイトで書いたリンクをとりあえず全部まとめておく
 
+- [Study](#Study)
 - [Books](#Books)
 - [Data](#Data)
 - [Code](#Code)
-- [Courses](#Courses)
 - [Others](#Others)
 
 ## Study
