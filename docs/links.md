@@ -9,7 +9,7 @@
 ## Study
 体系的に身に付けるのに役立つオンラインのコンテンツ
 
-CS, Math and Data Science
+### CS, Math and Data Science
 * CS50 https://cs50.harvard.edu/x/2021/
   * 日本語版 https://cs50.jp/
 * コーディング面接対策のために解きたいLeetCode 60問 <https://1kohei1.com/leetcode/>
@@ -20,7 +20,7 @@ CS, Math and Data Science
 * 数理・データサイエンス教育強化拠点コンソーシアム http://www.mi.u-tokyo.ac.jp/consortium/e-learning.html
 * [Deep Learning基礎講座演習コンテンツ 公開ページ | 東京大学松尾研究室 - Matsuo Lab](https://weblab.t.u-tokyo.ac.jp/deep-learning%E5%9F%BA%E7%A4%8E%E8%AC%9B%E5%BA%A7%E6%BC%94%E7%BF%92%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84-%E5%85%AC%E9%96%8B%E3%83%9A%E3%83%BC%E3%82%B8/)
 
-Econ
+### Economics
 * [QuantEcon](https://quantecon.org/)
   * Lecturesでは様々な経済学のモデルを実際に動かしながら学ぶことが出来る
   * Other Projectsも良い。QE Notesでは色々なケースのNotebookを見ることが出来る。右上のNotebooksから一覧を見れる
@@ -33,32 +33,28 @@ Econ
 ## Books
 参考書籍
 
-Data Science and Computer Science
-
+### Data Science and Computer Science
 * 独習Python 
 * Python for Data Analysis （邦訳 : Pythonによるデータ分析入門） 
   * 2nd edition以降がPython3系に対応なので気をつけること
 
-Economics
+### Economics
 
-Physics
+### Physics
 
-Mathematics
+### Mathematics
 
-Writing
+### Writing
 
-Misc
-
-科学論
+### 科学論
 * クーン 『科学革命の構造』
 * Galison 『素粒子実験の文化人類学的研究』
 * 福島真人 『真理の工場』、『暗黙知の解剖』
 * 『世界で最も美しい10の科学実験』
 
-
 ## Tools
 
-Python
+### Python
 * Matplotlib tutorial https://matplotlib.org/stable/tutorials/index.html
 * グラフ作成のためのチートシートとPythonによる各種グラフの実装<https://qiita.com/4m1t0/items/76b0033edb545a78cef5>
 * 10 minites to pandas <https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#viewing-data>
@@ -78,19 +74,19 @@ Python
   * Google https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
   * numpy https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard
 
-Latex
+### Latex
 * Overleaf : クラウド上で編集とコンパイルが出来るサイト 
 * VS Codeでコンパイル出来る様に設定（MAC） 参考<https://qiita.com/Gandats/items/d7718f12d71e688f3573>
 
-Vim
+### Vim
 * [Commands](https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
 
-VS Code
+### VS Code
 * snippetなどの設定 参考<https://docs.microsoft.com/ja-jp/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019>
 
 ## Data
 
-JP
+### JP
 * GDP統計・景気統計 <https://www.esri.cao.go.jp/index.html>
 * 産業連関表 <https://www.soumu.go.jp/toukei_toukatsu/data/io/index.htm>
 * Resas <https://resas.go.jp/> 
@@ -99,10 +95,10 @@ JP
   * 特許庁の整理標準化データを基に特許統計分析用に開発されたDB
 * 産業生産性(JIP)など政策分析用データベース<https://www.rieti.go.jp/jp/database/index.html>
 
-US
+### US
 * GDP統計など <https://www.bea.gov/>
 
-Cross-country
+### Cross-country
 * Penn World Table <https://pwt.sas.upenn.edu/php_site/pwt_index.php>
 * UN <http://unstats.un.org/unsd/nationalaccount/data.asp>
 * AWS <https://registry.opendata.aws/>
