@@ -84,6 +84,12 @@
 ### VS Code
 * snippetなどの設定 参考<https://docs.microsoft.com/ja-jp/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019>
 
+### Regex
+* <https://regex101.com/> 
+  * テストしたい正規表現パターンと文字列を入力すると一致するか判定してくれる
+  * PHP・javascript・Python・golangの４つの方言に対応
+  * 内部処理をステップごとに見ることが出来るデバッグ機能もある
+
 ## Data
 
 ### JP
