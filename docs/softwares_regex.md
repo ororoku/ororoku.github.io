@@ -5,7 +5,7 @@
 - [Tips](#Tips)
 - [Errors](#Errors)
 
-本ページの出典は[リンク集](../links.md#regex)にまとめている。
+本ページの出典は[リンク集](./links.md#regex)にまとめている。
 
 ## Overview 
 [Wikipediaの説明](https://ja.wikipedia.org/wiki/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE)によれば、正規表現とは、文字列の集合を一つの文字列で表現する方法の一つである。
@@ -35,4 +35,4 @@ Replace : my_function($1)
 
 ## Errors
 
-[top](../../index.md) / [memo](../memo.md)
+[top](../index.md) / [memo](./memo.md)
