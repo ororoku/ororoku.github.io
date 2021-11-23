@@ -1,6 +1,7 @@
 [リンク集](links.md) 2021/11/22
 
 ## Data Science 
+* SQLの数学
 * [分析の進め方](analysis_procedure.md) 2020/05/01
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
@@ -28,7 +29,7 @@
 WIP
 
 ## Softwares
-* 正規表現
+* [正規表現](softwares_regex.md) 2021/11/23
 * [Mac](softwares_mac.md) 2020/10/18
 * Vim
 * [Python](softwares_python.md) 2020/10/01 
