@@ -28,7 +28,7 @@
 WIP
 
 ## Softwares
-* [正規表現](softwares_regex.md) 2021/11/22
+* 正規表現
 * [Mac](softwares_mac.md) 2020/10/18
 * Vim
 * [Python](softwares_python.md) 2020/10/01 
