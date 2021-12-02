@@ -37,6 +37,7 @@
 * 独習Python 
 * Python for Data Analysis （邦訳 : Pythonによるデータ分析入門） 
   * 2nd edition以降がPython3系に対応なので気をつけること
+* 新しいLinuxの教科書
 
 ### Economics
 
@@ -53,6 +54,9 @@
 * 『世界で最も美しい10の科学実験』
 
 ## Tools
+
+### Linux
+* ディレクトリ構造の標準化仕様　https://www.pathname.com/fhs/ 
 
 ### Python
 * Matplotlib tutorial https://matplotlib.org/stable/tutorials/index.html
