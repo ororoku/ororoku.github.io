@@ -1,10 +1,34 @@
 # リンク集
 
-- [Study](#Study)
 - [Books](#Books)
+- [Study](#Study)
 - [Tools](#Tools)
 - [Data](#Data)
 - [Misc](#Misc)
+
+## Books
+参考書籍
+
+### Data Science and Computer Science
+* 独習Python 
+* Python for Data Analysis （邦訳 : Pythonによるデータ分析入門） 
+  * 2nd edition以降がPython3系に対応なので気をつけること
+* 新しいLinuxの教科書
+
+### Economics
+
+### Physics
+
+### Mathematics
+
+### Writing
+
+### 科学論
+* クーン 『科学革命の構造』
+* Galison 『素粒子実験の文化人類学的研究』
+* 福島真人 『真理の工場』、『暗黙知の解剖』
+* 『世界で最も美しい10の科学実験』
+
 
 ## Study
 体系的に身に付けるのに役立つオンラインのコンテンツ
@@ -29,29 +53,6 @@
   * Raj.Chettyがやっているサイト
   * 論文のデータと解析コードなど
 * "Social and Economic Networks: Models and Analysis" by Mat.Jackson <https://www.coursera.org/learn/social-economic-networks>
-
-## Books
-参考書籍
-
-### Data Science and Computer Science
-* 独習Python 
-* Python for Data Analysis （邦訳 : Pythonによるデータ分析入門） 
-  * 2nd edition以降がPython3系に対応なので気をつけること
-* 新しいLinuxの教科書
-
-### Economics
-
-### Physics
-
-### Mathematics
-
-### Writing
-
-### 科学論
-* クーン 『科学革命の構造』
-* Galison 『素粒子実験の文化人類学的研究』
-* 福島真人 『真理の工場』、『暗黙知の解剖』
-* 『世界で最も美しい10の科学実験』
 
 ## Tools
 
@@ -120,7 +121,6 @@
 * 🧑‍🎓 天体物理データシステム（Astrophysics Data System、ADS）<https://ui.adsabs.harvard.edu/>
   * NASAが提供する、天文学・物理学の論文DB
 * 🧑‍🎓 JSTOR Data for research(DfR) <https://guides.smu.edu/jstordfr>
-
 
 ## Others
 * 大学院生の掲示板 <https://www.econjobrumors.com/>
