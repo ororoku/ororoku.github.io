@@ -24,11 +24,11 @@
 * [QuantEcon](https://quantecon.org/)
   * Lecturesでは様々な経済学のモデルを実際に動かしながら学ぶことが出来る
   * Other Projectsも良い。QE Notesでは色々なケースのNotebookを見ることが出来る。右上のNotebooksから一覧を見れる
+  * Julia, Matlabとの変換チートシートもある <https://cheatsheets.quantecon.org/>
 * [Opportunity Insights](https://opportunityinsights.org/)
   * Raj.Chettyがやっているサイト
   * 論文のデータと解析コードなど
 * "Social and Economic Networks: Models and Analysis" by Mat.Jackson <https://www.coursera.org/learn/social-economic-networks>
-
 
 ## Books
 参考書籍
@@ -58,25 +58,26 @@
 ### Linux
 * ディレクトリ構造の標準化仕様　https://www.pathname.com/fhs/ 
 
-### Python
-* Matplotlib tutorial https://matplotlib.org/stable/tutorials/index.html
-* グラフ作成のためのチートシートとPythonによる各種グラフの実装<https://qiita.com/4m1t0/items/76b0033edb545a78cef5>
-* 10 minites to pandas <https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#viewing-data>
+### Python(official documents)
 * Python公式チュートリアル <https://docs.python.org/ja/3/tutorial/appetite.html>
-* IPython Built-in magic commands <https://ipython.readthedocs.io/en/stable/interactive/magics.html>
 * Python Package Index(PyPI) <https://pypi.org/>
-* Julia, Matlabとの変換チートシート <https://cheatsheets.quantecon.org/>
-* ゼロから学ぶPython <https://rinatz.github.io/python-book/>
-* やさしいPython入門 <https://python.softmoco.com/basics/>
-  * 命名規則を調べるのに使った 
-* 東大のPython入門 <https://utokyo-ipp.github.io/> 
-  * Colaboratoryによる演習 <https://colab.research.google.com/github/utokyo-ipp/utokyo-ipp.github.io/blob/master/colab/index.ipynb>
+* Matplotlib tutorial https://matplotlib.org/stable/tutorials/index.html
+* 10 minites to pandas <https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#viewing-data>
+* IPython Built-in magic commands <https://ipython.readthedocs.io/en/stable/interactive/magics.html>
 * PEP8 : 推奨されるコーディング規約 <https://www.python.org/dev/peps/pep-0008/>
   * 日本語訳 <https://pep8-ja.readthedocs.io/ja/latest/> 
 * Googleのコーディング規約 <https://google.github.io/styleguide/pyguide.html>
 * Docstrings style guides
   * Google https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
   * numpy https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard
+
+### Python(Tips)
+* グラフ作成のためのチートシートとPythonによる各種グラフの実装<https://qiita.com/4m1t0/items/76b0033edb545a78cef5>
+* やさしいPython入門 <https://python.softmoco.com/basics/>
+  * 命名規則を調べるのに使った 
+* 東大のPython入門 <https://utokyo-ipp.github.io/> 
+  * Colaboratoryによる演習 <https://colab.research.google.com/github/utokyo-ipp/utokyo-ipp.github.io/blob/master/colab/index.ipynb>
+* ゼロから学ぶPython <https://rinatz.github.io/python-book/>
 
 ### Latex
 * Overleaf : クラウド上で編集とコンパイルが出来るサイト 
