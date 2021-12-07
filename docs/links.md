@@ -33,6 +33,8 @@
 ## Study
 体系的に身に付けるのに役立つオンラインのコンテンツ
 
+* https://library.oapen.org/ オープンアクセスの教科書が大量に置いてある。PDF形式でダウンロード可能
+
 ### CS, Math and Data Science
 * CS50 https://cs50.harvard.edu/x/2021/
   * 日本語版 https://cs50.jp/
