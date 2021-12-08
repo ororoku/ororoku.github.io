@@ -23,12 +23,14 @@
 * 量化(quantification)
 
 ## Tips
-### ()と$でマッチした内容を記録して置換
-例えば、以下の様に検索して置換することが出来る。
+### マッチした内容を記録して置換
+()と$を用いることで、以下の様にマッチした内容を記録して置換することが出来る。
 ```
-文字列 : display(pd.read_csv("Test.txt",sep="\t", nrows=5))
+やりたいこと
+元の文字列 : display(pd.read_csv("Test.txt",sep="\t", nrows=5))
 置換後文字列 : my_function("Test.txt")
 
+実装
 Find : display\(pd\.read_csv\((.*),sep="\\t", nrows=5\)\)
 Replace : my_function($1)
 ```
