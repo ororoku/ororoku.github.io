@@ -35,11 +35,11 @@ Replace : my_function($1)
 
 ## Errors
 
-[top](https://ororoku.github.io/) / [memo](https://ororoku.github.io/docs/memo.html)
-
 ## References
 * <https://regex101.com/> 
   * テストしたい正規表現パターンと文字列を入力すると一致するか判定してくれる
   * PHP・javascript・Python・golangの４つの方言に対応
   * 内部処理をステップごとに見ることが出来るデバッグ機能もある
 * [正規表現の"正規"とは何か気になったら正規表現の歴史を紐解くことになってしまった話](https://zenn.dev/yucatio/articles/0b554e59db0158)
+
+[top](https://ororoku.github.io/) / [memo](https://ororoku.github.io/docs/memo.html)
