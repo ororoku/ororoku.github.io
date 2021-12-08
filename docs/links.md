@@ -33,11 +33,11 @@
 ## Study
 体系的に身に付けるのに役立つオンラインのコンテンツ
 
-* https://library.oapen.org/ オープンアクセスの教科書が大量に置いてある。PDF形式でダウンロード可能
+* <https://library.oapen.org/> オープンアクセスの教科書が大量に置いてある。PDF形式でダウンロード可能
 
 ### CS, Math and Data Science
-* CS50 https://cs50.harvard.edu/x/2021/
-  * 日本語版 https://cs50.jp/
+* CS50 <https://cs50.harvard.edu/x/2021/>
+  * 日本語版 <https://cs50.jp/>
 * コーディング面接対策のために解きたいLeetCode 60問 <https://1kohei1.com/leetcode/>
 * [ファインマン物理数学](http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol5.pdf)
   * Lecture3 : ごちゃごちゃした関数の微分（対数微分の応用）
