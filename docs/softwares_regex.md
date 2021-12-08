@@ -4,8 +4,8 @@
 - [Overview](#Overview)
 - [Tips](#Tips)
 - [Errors](#Errors)
+- [References](#References)
 
-本ページの出典は[リンク集](https://ororoku.github.io/docs/links.html#Regex)にまとめている。
 
 ## Overview 
 [Wikipediaの説明](https://ja.wikipedia.org/wiki/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE)によれば、正規表現とは、文字列の集合を一つの文字列で表現する方法の一つである。
@@ -36,3 +36,10 @@ Replace : my_function($1)
 ## Errors
 
 [top](https://ororoku.github.io/) / [memo](https://ororoku.github.io/docs/memo.html)
+
+## References
+* <https://regex101.com/> 
+  * テストしたい正規表現パターンと文字列を入力すると一致するか判定してくれる
+  * PHP・javascript・Python・golangの４つの方言に対応
+  * 内部処理をステップごとに見ることが出来るデバッグ機能もある
+* [正規表現の"正規"とは何か気になったら正規表現の歴史を紐解くことになってしまった話](https://zenn.dev/yucatio/articles/0b554e59db0158)
