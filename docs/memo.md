@@ -35,13 +35,13 @@ WIP
 * [Python](softwares_python.md) 2020/10/01 
 * [pandas](softwares_pandas.md) 2021/08/20
 * C++ 
-* [Unix/Linux](softwares_unix.md) 2021/09/04 
+* [Unix/Linux](softwares_unix.md) 2021/12/08 
 * Stata 
 * Latex
 * VS Code
 * [Git](softwares_git.md) 2020/10/01
 * [Emacs](softwares_emacs.md) 2010/12/07
-* [Windows](softwares_win.md) 2021/09/08
+* Windows
 
 
 [top](https://ororoku.github.io/)
