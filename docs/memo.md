@@ -2,8 +2,7 @@
 
 ## Data Science 
 * SQLの数学
-* [分析の進め方](analysis_procedure.md) 2020/05/01
-* [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
+* 🔒 [モデリングTODOリスト](https://trello.com/b/y5ahKlhp)
 
 ## Social Science
 * 🔒 [スコアリングモデルの分類](https://paper.dropbox.com/doc/--A6O6veqzYNddiZvkGA1GloRfAQ-q15V7LMvoyhsz813kBzpx) 2020/08/23
@@ -26,7 +25,7 @@
 * マスコレルAppendixの解説
 
 ## Writing 
-WIP
+Work in progress
 
 ## Softwares
 * [正規表現](softwares_regex.md) 2021/11/23
