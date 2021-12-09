@@ -6,7 +6,7 @@
 * [データサイエンティストとしてやっていくには](datasci_study.md) 2020/04/16
 
 ## Social Science
-* [信用モデリングの勉強](credit_modeling.md) 2020/08/23 
+* 🔒 [スコアリングモデルの分類](https://paper.dropbox.com/doc/--A6O6veqzYNddiZvkGA1GloRfAQ-q15V7LMvoyhsz813kBzpx) 2020/08/23
 * [論文サーヴェイのやり方](papers_survey.md) 2020/07/03
 * [オンラインマッチングサービスの分析](online_dating.md) 2020/07/03
 * [Covid-19関連](covid19.md) 2020/04/15
