@@ -15,7 +15,8 @@
   * 2nd edition以降がPython3系に対応なので気をつけること
 * 新しいLinuxの教科書
 
-### Economics
+### Economics and Finance
+* 「スコアリングモデルの基礎知識 中小企業融資における見方・使い方」 尾木 研三 
 
 ### Physics
 
