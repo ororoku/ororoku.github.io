@@ -49,7 +49,7 @@ gibo python >> .gitignore
 ## Errors
 
 ### SAMLを使ったログイン
-2018/03/26 
+2018/03/26 MacOS
 
 #### 症状
 レポジトリを作り、ローカルPCにgit cloneしようとすると、以下のようなメッセージが出現して出来ない。
@@ -60,13 +60,14 @@ remote: https://help.github.com/articles/authenticating-to-a-github-organization
 ```
 
 #### 解決策
-上記リンク先に行くと、いくつか選択肢があるので
-https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/
+エラーメッセージのリンク先に行くと、いくつか選択肢があるので
+<https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/>
 を選ぶ。メッセージにしたがい、Personal access tokenをAuthorize. 
 
-これでclone出来るかと思いきや、メッセージが変わらない。これは、ローカルに保存されたkeychainの情報が邪魔してるからなので、
-command + spaceでkeychain accessを呼び出し→ログインから全ての項目でgit を検索、削除
-Personal Access tokensから該当のものを選んでedit→平文のパスワードにしてコピー→git cloneして貼り付け
+これでclone出来るかと思いきや、メッセージが変わらない。これは、ローカルに保存されたkeychainの情報が邪魔しているからなので、
+1. keychain accessを呼び出し（command + spaceが早い）-> ログインから全ての項目でgit を検索、削除
+2. Personal Access tokensから該当のものを選んでedit -> 平文のパスワードにしてコピー -> git cloneして貼り付け
+
 これで上手くいった
 
 ## References
