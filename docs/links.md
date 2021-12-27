@@ -37,6 +37,8 @@
 * <https://library.oapen.org/> オープンアクセスの教科書が大量に置いてある。PDF形式でダウンロード可能
 
 ### CS, Math and Data Science
+* [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
+  * 日本語版PDFも公開されている
 * CS50 <https://cs50.harvard.edu/x/2021/>
   * 日本語版 <https://cs50.jp/>
 * コーディング面接対策のために解きたいLeetCode 60問 <https://1kohei1.com/leetcode/>
