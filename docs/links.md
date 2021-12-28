@@ -134,4 +134,4 @@
 * 手書き文字をLatexに変換できる <https://webdemo.myscript.com/views/math/index.html#>
 * [青空文庫全文検索（非公式）](https://myokoym.net/aozorasearch/)
   * 単語や文章で検索でき、結果が整理されていて見やすい
-  * 一応、Googleのsite検索を使っても同じことは出来る `我輩は site:www.aozora.gr.jp`など
+  * 一応、Googleのsite検索を使っても同じことは出来る。検索窓で`我輩は site:www.aozora.gr.jp`など
