@@ -1,34 +1,9 @@
 # リンク集
 
-- [Books](#Books)
 - [Study](#Study)
 - [Tools](#Tools)
 - [Data](#Data)
 - [Misc](#Misc)
-
-## Books
-参考書籍
-
-### Data Science and Computer Science
-* 独習Python 
-* Python for Data Analysis （邦訳 : Pythonによるデータ分析入門） 
-  * 2nd edition以降がPython3系に対応なので気をつけること
-* 新しいLinuxの教科書
-
-### Economics and Finance
-* 「スコアリングモデルの基礎知識 中小企業融資における見方・使い方」 尾木 研三 
-
-### Physics
-
-### Mathematics
-
-### Writing
-
-### 科学論
-* クーン 『科学革命の構造』
-* Galison 『素粒子実験の文化人類学的研究』
-* 福島真人 『真理の工場』、『暗黙知の解剖』
-* 『世界で最も美しい10の科学実験』
 
 
 ## Study
