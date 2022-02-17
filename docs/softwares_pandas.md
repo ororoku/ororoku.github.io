@@ -35,6 +35,31 @@ df=DataFrame([[2190,13378],[1904,8850],[5157,6197]],
 df.rename(columns = {'population':'pop'})
 df.rename(index = {'Tokyooo':'Tokyo', 'Chibaaa':'Chiba'})
 ```
+
+* 結合の仕方
+
+  - merge データフレームに含まれる行を一つ以上のキーでマージ(SQLの結合操作と同等)
+  - concat 軸に沿った連結、あるいは積み重ね
+  - join 
+  - append 
+
+```Python
+#
+# dataディレクトリ内の全てのファイルを読み込んで結合させる
+#
+
+import glob
+df = pd.DataFrame()
+
+files = glob.glob("./data/*")
+
+for file in files:
+  tmp = pd.read_csv(file)
+  df = pd.concat([df, tmp])
+  del tmp
+```
+
+
 ### DataTransformation
 * 文字列型のNoneTypeを数値型のNaNに変換する
 ```Python
@@ -65,14 +90,6 @@ df[(1 < df["A"]) & (df["A"] < 3)]
 ```
 
 ### GroupOperations
-* 結合の仕方
-```Python
-merge
-concat
-join
-append
-```
-
 * groupbyによる集約
 ```Python
 nunique # 一意の値をカウント
