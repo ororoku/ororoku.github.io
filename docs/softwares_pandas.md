@@ -8,9 +8,6 @@
   - [Connecting Databases](#connectingdatabases) 
 - [Errors](#Errors)
 
-## Links
-* 10 minites to pandas <https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#viewing-data>
-
 ## Tips
 ### DataFrame
 * カラム名やインデックス名の変更
@@ -61,6 +58,13 @@ for file in files:
 
 
 ### DataTransformation
+* 欠損データの確認
+欠損がある行・列を抽出するやり方はそれぞれ以下の様になる。
+```Python
+df[df.isnull().any(axis=1)]
+df.loc[:, df.isnull().any()]
+```
+
 * 文字列型のNoneTypeを数値型のNaNに変換する
 ```Python
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
