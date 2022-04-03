@@ -1,5 +1,4 @@
 # pandas 
-- [Links](#Links)
 - [Tips](#Tips)
   - [DataFrame](#dataframe)
   - [Data Transformation](#datatransformation)
