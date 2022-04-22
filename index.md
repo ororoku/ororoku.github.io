@@ -1,11 +1,10 @@
-# ororoku.github.io
+# Masahiro Oroku
 
-## About
+## Profile
 PhD, Physics -> MA, Economics -> Data Scientist
 
-## Profile 
-- Masahiro Oroku 
-- Tokyo 
+## Contacts
 - masahiro.oroku -at- gmail.com
+- https://ororoku.github.io/
 
 [memo](docs/memo.md)
