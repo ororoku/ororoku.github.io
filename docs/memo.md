@@ -28,11 +28,18 @@
 Work in progress
 
 ## Softwares
+Python関連
+
+* [Google Colab](softwares_colab.md) 2022/04/23
+* [pandas](softwares_pandas.md) 2021/08/20
+* [Python](softwares_python.md) 2020/10/01 
+
+
+諸々
+
 * [正規表現](softwares_regex.md) 2021/11/23
 * [Mac](softwares_mac.md) 2020/10/18
 * Vim
-* [Python](softwares_python.md) 2020/10/01 
-* [pandas](softwares_pandas.md) 2021/08/20
 * C++ 
 * [Unix/Linux](softwares_unix.md) 2021/12/08 
 * Stata 
