@@ -111,6 +111,27 @@ count
 df.groupby("x").quantile(.75) # 上位25%パーセンタイル  
 ```
 
+* 分散と標準偏差の求め方
+分散と標準偏差について、numpyとpandasでは同じ名前の関数が与えられているが、デフォルト値が異なり、numpyではデータ数N、pandasではN-1で割っている。pandasのdescribe()のstdの値もN-1で割った不偏標準偏差である。以下のコードを実行してみよう。
+```Python
+import numpy as np
+import pandas as pd
+
+list_ = [ 1, 2, 3, 4, 5]
+data_np = np.array(list_)
+data_pd = pd.Series(list_)
+
+print(np.var(data_np))
+print(data_pd.var())
+print(np.var(data_np, ddof=1))
+print(data_pd.var(ddof=0))
+
+print(np.std(data_np))
+print(data_pd.std())
+print(np.std(data_np, ddof=1))
+print(data_pd.std(ddof=0))
+```
+
 ### TimeSeries
 * 文字列と日付の変換
 ```Python
