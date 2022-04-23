@@ -49,6 +49,8 @@ __参考__
 - https://dreamer-uma.com/kaggle-api-colab/
   - Kaggle Datasetにファイルをアップロードするやり方（学習をGoogle Colabで行い、推論のみKaggle notebookで行う場合など）
 - https://qiita.com/katsu1110/items/a8d508a1b6f07bd3a243
+- [colabでkaggleのdatasetをマウントする](https://zenn.dev/karunru/articles/a8f394d7a859b7)
+  - GCS経由のやり方
 - https://github.com/Kaggle/kaggle-api
 
  
