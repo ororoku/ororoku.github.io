@@ -44,10 +44,11 @@ __エラー__
 - `400 - Bad request` code competition （コードコンペ）にColabからsubmitしようとした場合
 
 __参考__
-- https://zenn.dev/mst8823/articles/da505dcf45474f
+- [Colab で Kaggle (N番煎じ)](https://zenn.dev/mst8823/articles/da505dcf45474f)
   - code competition でサブミットするやり方
+  - パイプラインの作り方も勉強になる
 - https://dreamer-uma.com/kaggle-api-colab/
-  - Kaggle Datasetにファイルをアップロードするやり方（学習をGoogle Colabで行い、推論のみKaggle notebookで行う場合など）
+  - Kaggle Datasetにファイルをアップロードするやり方（学習をGoogle Colabで行い、推論のみKaggle notebookで行う場合）
 - https://qiita.com/katsu1110/items/a8d508a1b6f07bd3a243
 - [colabでkaggleのdatasetをマウントする](https://zenn.dev/karunru/articles/a8f394d7a859b7)
   - GCS経由のやり方
