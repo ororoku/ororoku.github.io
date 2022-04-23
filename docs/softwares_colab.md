@@ -23,7 +23,7 @@ Kaggleのデータをダウンロードし、submitするまでをcolab上で行
 3. 分析を回し、予測結果をsubmitする
 
 Notebookの例
-'''Python
+```Python
 from google.colab import files
 files.upload() # upload kaggle.json
 !mkdir -p ~/.kaggle
@@ -36,7 +36,7 @@ files.upload() # upload kaggle.json
 !kaggle competitions download -c titanic
 !unzip /content/titanic.zip
 !kaggle competitions submit -c titanic -f gender_submission.csv -m "submit from colab"
-'''
+```
 
 
 エラー
