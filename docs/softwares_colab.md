@@ -22,7 +22,7 @@ Kaggleのデータをダウンロードし、submitするまでをcolab上で行
 2. ColabのNotebookを実行し、kaggle.jsonをアップロードする
 3. 分析を回し、予測結果をsubmitする
 
-Notebookの例
+Notebookの例（Titanicのデータをダウンロードしsubmit）
 ```Python
 from google.colab import files
 files.upload() # upload kaggle.json
