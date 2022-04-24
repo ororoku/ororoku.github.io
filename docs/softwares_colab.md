@@ -24,8 +24,9 @@ __手順__
 3. 分析を回し、予測結果をsubmitする
 
 __Notebookの例__
+
+Colab Notebookで以下を実行することで、TitanicのデータをColabにダウンロードしsample submitを行うことが出来る。
 ```Python
-#TitanicのデータをColabにダウンロードしsubmit
 from google.colab import files
 files.upload() # upload kaggle.json
 !mkdir -p ~/.kaggle
