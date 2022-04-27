@@ -1,24 +1,30 @@
 # pandas 
 - [Overview](#Overview)
-  - [DataFrame](#dataframe)
-    - カラム名とインデックス名 
-  - [Data Transformation](#datatransformation)
+  - [Series and DataFrame](#seriesanddataframe)
   - [Group Operations](#groupoperations)
   - [Time Series](#timeseries)
 - [Tips](#Tips)
-  - [Connecting Databases](#connectingdatabases) 
+  - ディレクトリ内のファイルを読み込んで結合させる
+  - 一つでも欠損がある行や列を抽出する
+  - 文字列型のNoneTypeを数値型のNaNに変換する
+  - 正規表現を使ったデータ加工
+  - queryメソッドを用いた条件抽出
+  - 分散と標準偏差の計算について
+  - データベースとの連携
 - [Errors](#Errors)
+
 
 ## Overview
 pandasはNumPyをベースに作成されたライブラリであり、SeriesとDataFrameというデータ構造を持つ。
 
+
+### Series and DataFrame
 Seriesは一次元の配列の様なオブジェクトであり、NumPyが持つデータ型のデータ配列とそれに関連付けられたデータラベルの配列（インデックス）を含む。
 values属性とindex属性を使うと、データ配列とインデックスオブジェクトをそれぞれ取得することが可能である。
 インデックスとデータ値がマッピングされた固定長の順序付きディクショナリと捉えることも出来、実際、ディクショナリをコンストラクタに渡してSeriesを作成することも出来る。
 
 DataFrameはテーブル形式のデータ構造を持つ。
 
-### DataFrame
 * カラムとインデックス
 
 以下の様にDataFrameを作成し、必要に応じてカラムとインデックスをrenameすることが出来る。
@@ -46,9 +52,8 @@ df.rename(index = {'Tokyooo':'Tokyo', 'Chibaaa':'Chiba'})
   - append 
 
 ### GroupOperations
-* groupbyによる集約
-
-groupbyによる集約関数には以下の様なものが用意されている。
+pandas　オブジェクトには、集約や要約統計量の計算メソッドが用意されている。
+groupbyによる集約関数には以下の様なものがある。
 ```Python
 nunique # 一意の値をカウント
 sum 
@@ -57,8 +62,19 @@ count
 df.groupby("x").quantile(.75) # 上位25%パーセンタイル  
 ```
 
+### TimeSeries
+pandasには時系列データを扱う機能も用意されていて、非時系列データと同じデータ構造で扱うことが出来る。
+
+文字列と日付の変換
+```Python
+df['date'] = pd.to_datetime(df["yyyymm"], format='%Y%m') 
+df['DateStr'] = df['DateObj'].dt.strftime('%d%m%Y')
+df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
+```
+
 ## Tips
 * ディレクトリ内のファイルを読み込んで結合させる
+
 globモジュールを使うことで、引数に指定されたパターンにマッチするファイルパス名を取得することが出来る。
 マッチングさせるパターンの書き方は、Unixシェルで使用される書き方と同様。
 
@@ -77,6 +93,7 @@ for file in files:
 ```
 
 * 一つでも欠損がある行や列を抽出する
+
 anyメソッドを用いることで、一つでも欠損がある行・列を抽出することが可能である。
 行と列について、それぞれ以下の様になる。
 
@@ -86,11 +103,13 @@ df.loc[:, df.isnull().any()]
 ```
 
 * 文字列型のNoneTypeを数値型のNaNに変換する
+
 ```Python
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
 
 * 正規表現を使ったデータ加工
+
 例えば「AA1234567B」を「AA1234567(B)」にしたい場合は以下の様にする
 ```Python
 tmp = df["x"].str.extractall(r'([A-Z]{2}.+)([A-Z].*)').reset_index()
@@ -101,6 +120,7 @@ df = df.join(tmp)
 ```
 
 * queryメソッドを用いた条件抽出
+
 query メソッドを使うと便利。以下の二つの書き方が同じになる
 ```Python
 df.query("A == 0")
@@ -112,6 +132,7 @@ df[(1 < df["A"]) & (df["A"] < 3)]
 ```
 
 * 分散と標準偏差の計算について
+
 分散と標準偏差について、numpyとpandasでは同じ名前の関数が与えられているが、デフォルト値が異なり、numpyではデータ数N、pandasではN-1で割っている。pandasのdescribe()のstdの値もN-1で割った不偏標準偏差である。以下のコードを実行してみよう。
 ```Python
 import numpy as np
@@ -132,13 +153,7 @@ print(np.std(data_np, ddof=1))
 print(data_pd.std(ddof=0))
 ```
 
-### TimeSeries
-* 文字列と日付の変換
-```Python
-df['date'] = pd.to_datetime(df["yyyymm"], format='%Y%m') 
-df['DateStr'] = df['DateObj'].dt.strftime('%d%m%Y')
-df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
-```
+
 
 * ラグ変数の作り方
 
@@ -193,7 +208,7 @@ df = pd.merge(df, tmp_all, on = ["company_id", "date"], how = "left")
 
 * データベースとの連携
 
-AWS と
+AWSと連携するには以下の様にする。
   * sqlの実行結果をローカルで走らせたpythonのdataframeに取り込み
   * ローカルで走らせたpythonのdataframeをredshift上にtableとして生成
   * 参照 <https://dev.classmethod.jp/articles/amazon-redshift2pandas_with_psycopg2/>
