@@ -25,7 +25,7 @@ values属性とindex属性を使うと、データ配列とインデックスオ
 
 DataFrameはテーブル形式のデータ構造を持つ。
 
-* カラムとインデックス
+#### カラムとインデックス
 
 以下の様にDataFrameを作成し、必要に応じてカラムとインデックスをrenameすることが出来る。
 ```Python
@@ -43,7 +43,7 @@ df.rename(columns = {'population':'pop'})
 df.rename(index = {'Tokyooo':'Tokyo', 'Chibaaa':'Chiba'})
 ```
 
-* 結合
+#### 結合
 
 データの結合には以下の方法が用意されている。
   - merge データフレームに含まれる行を一つ以上のキーでマージ(SQLの結合操作と同等)
@@ -73,7 +73,7 @@ df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
 ```
 
 ## Tips
-* ディレクトリ内のファイルを読み込んで結合させる
+#### ディレクトリ内のファイルを読み込んで結合させる
 
 globモジュールを使うことで、引数に指定されたパターンにマッチするファイルパス名を取得することが出来る。
 マッチングさせるパターンの書き方は、Unixシェルで使用される書き方と同様。
@@ -92,7 +92,7 @@ for file in files:
   del tmp
 ```
 
-* 一つでも欠損がある行や列を抽出する
+#### 一つでも欠損がある行や列を抽出する
 
 anyメソッドを用いることで、一つでも欠損がある行・列を抽出することが可能である。
 行と列について、それぞれ以下の様になる。
@@ -102,13 +102,13 @@ df[df.isnull().any(axis=1)]
 df.loc[:, df.isnull().any()]
 ```
 
-* 文字列型のNoneTypeを数値型のNaNに変換する
+#### 文字列型のNoneTypeを数値型のNaNに変換する
 
 ```Python
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
 
-* 正規表現を使ったデータ加工
+#### 正規表現を使ったデータ加工
 
 例えば「AA1234567B」を「AA1234567(B)」にしたい場合は以下の様にする
 ```Python
@@ -119,7 +119,7 @@ df.rename(columns={"x":"x_org"}, inplace=True)
 df = df.join(tmp)
 ```
 
-* queryメソッドを用いた条件抽出
+#### queryメソッドを用いた条件抽出
 
 query メソッドを使うと便利。以下の二つの書き方が同じになる
 ```Python
@@ -131,7 +131,7 @@ df[df["A"] == 0]
 df[(1 < df["A"]) & (df["A"] < 3)] 
 ```
 
-* 分散と標準偏差の計算について
+#### 分散と標準偏差の計算について
 
 分散と標準偏差について、numpyとpandasでは同じ名前の関数が与えられているが、デフォルト値が異なり、numpyではデータ数N、pandasではN-1で割っている。pandasのdescribe()のstdの値もN-1で割った不偏標準偏差である。以下のコードを実行してみよう。
 ```Python
@@ -155,7 +155,7 @@ print(data_pd.std(ddof=0))
 
 
 
-* ラグ変数の作り方
+#### ラグ変数の作り方
 
 例えば会社・月を複合主キーとするデータマートでnヶ月分のラグ変数と移動平均を作る場合
 ```Python
@@ -206,7 +206,7 @@ for cat in set(df["company_id"]):
 df = pd.merge(df, tmp_all, on = ["company_id", "date"], how = "left")
 ```
 
-* データベースとの連携
+#### データベースとの連携
 
 AWSと連携するには以下の様にする。
   * sqlの実行結果をローカルで走らせたpythonのdataframeに取り込み
