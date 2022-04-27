@@ -4,6 +4,7 @@
   - [Group Operations](#groupoperations)
   - [Time Series](#timeseries)
 - [Tips](#Tips)
+  - ランダムな値を持つ列を追加する
   - ディレクトリ内のファイルを読み込んで結合させる
   - 一つでも欠損がある行や列を抽出する
   - 文字列型のNoneTypeを数値型のNaNに変換する
@@ -73,6 +74,15 @@ df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
 ```
 
 ## Tips
+
+#### ランダムな値を持つ列を追加する
+
+Seriesはnumpyの数列を引数にとって宣言することが出来るので、以下の様に書ける。
+
+```Python
+df['rand'] = pd.Series( np.random.random( len(df) ), index=df.index )
+```
+
 #### ディレクトリ内のファイルを読み込んで結合させる
 
 globモジュールを使うことで、引数に指定されたパターンにマッチするファイルパス名を取得することが出来る。
