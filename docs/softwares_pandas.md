@@ -1,10 +1,11 @@
 # pandas 
 - [Overview](#Overview)
-- [Tips](#Tips)
   - [DataFrame](#dataframe)
+    - カラム名とインデックス名 
   - [Data Transformation](#datatransformation)
   - [Group Operations](#groupoperations)
   - [Time Series](#timeseries)
+- [Tips](#Tips)
   - [Connecting Databases](#connectingdatabases) 
 - [Errors](#Errors)
 
@@ -15,18 +16,13 @@ Seriesは一次元の配列の様なオブジェクトであり、NumPyが持つ
 values属性とindex属性を使うと、データ配列とインデックスオブジェクトをそれぞれ取得することが可能である。
 インデックスとデータ値がマッピングされた固定長の順序付きディクショナリと捉えることも出来、実際、ディクショナリをコンストラクタに渡してSeriesを作成することも出来る。
 
+DataFrameはテーブル形式のデータ構造を持つ。
 
-## Tips
 ### DataFrame
-* カラム名やインデックス名の変更
-```Python
-df.columns = ['a', 'b', 'c']
-df.index = ['aa', 'bb', 'cc']
- 
-# 
-# 東京、大阪、千葉の面積と人口
-# 
+* カラムとインデックス
 
+以下の様にDataFrameを作成し、必要に応じてカラムとインデックスをrenameすることが出来る。
+```Python
 df=DataFrame([[2190,13378],[1904,8850],[5157,6197]],
              columns=['area','population'],
              index=['Tokyooo','Osaka','Chibaaa'])
@@ -41,22 +37,38 @@ df.rename(columns = {'population':'pop'})
 df.rename(index = {'Tokyooo':'Tokyo', 'Chibaaa':'Chiba'})
 ```
 
-* 結合の仕方
+* 結合
 
+データの結合には以下の方法が用意されている。
   - merge データフレームに含まれる行を一つ以上のキーでマージ(SQLの結合操作と同等)
   - concat 軸に沿った連結、あるいは積み重ね
   - join 
   - append 
 
-```Python
-#
-# dataディレクトリ内の全てのファイルを読み込んで結合させる
-#
+### GroupOperations
+* groupbyによる集約
 
+groupbyによる集約関数には以下の様なものが用意されている。
+```Python
+nunique # 一意の値をカウント
+sum 
+mean 
+count
+df.groupby("x").quantile(.75) # 上位25%パーセンタイル  
+```
+
+## Tips
+* ディレクトリ内のファイルを読み込んで結合させる
+globモジュールを使うことで、引数に指定されたパターンにマッチするファイルパス名を取得することが出来る。
+マッチングさせるパターンの書き方は、Unixシェルで使用される書き方と同様。
+
+例えば以下の様にすると、カレントディレクトリにある全てのファイルを読み込んで結合させることが出来る。
+
+```Python
 import glob
 df = pd.DataFrame()
 
-files = glob.glob("./data/*")
+files = glob.glob("./*")
 
 for file in files:
   tmp = pd.read_csv(file)
@@ -64,10 +76,10 @@ for file in files:
   del tmp
 ```
 
+* 一つでも欠損がある行や列を抽出する
+anyメソッドを用いることで、一つでも欠損がある行・列を抽出することが可能である。
+行と列について、それぞれ以下の様になる。
 
-### DataTransformation
-* 欠損データの確認
-欠損がある行・列を抽出するやり方はそれぞれ以下の様になる。
 ```Python
 df[df.isnull().any(axis=1)]
 df.loc[:, df.isnull().any()]
@@ -78,8 +90,7 @@ df.loc[:, df.isnull().any()]
 df["test"] = df["test"].apply(lambda x: numpy.nan if x==None else x)
 ```
 
-* 正規表現
-
+* 正規表現を使ったデータ加工
 例えば「AA1234567B」を「AA1234567(B)」にしたい場合は以下の様にする
 ```Python
 tmp = df["x"].str.extractall(r'([A-Z]{2}.+)([A-Z].*)').reset_index()
@@ -89,8 +100,7 @@ df.rename(columns={"x":"x_org"}, inplace=True)
 df = df.join(tmp)
 ```
 
-* 条件抽出
-
+* queryメソッドを用いた条件抽出
 query メソッドを使うと便利。以下の二つの書き方が同じになる
 ```Python
 df.query("A == 0")
@@ -101,17 +111,7 @@ df[df["A"] == 0]
 df[(1 < df["A"]) & (df["A"] < 3)] 
 ```
 
-### GroupOperations
-* groupbyによる集約
-```Python
-nunique # 一意の値をカウント
-sum 
-mean 
-count
-df.groupby("x").quantile(.75) # 上位25%パーセンタイル  
-```
-
-* 分散と標準偏差の求め方
+* 分散と標準偏差の計算について
 分散と標準偏差について、numpyとpandasでは同じ名前の関数が与えられているが、デフォルト値が異なり、numpyではデータ数N、pandasではN-1で割っている。pandasのdescribe()のstdの値もN-1で割った不偏標準偏差である。以下のコードを実行してみよう。
 ```Python
 import numpy as np
@@ -191,13 +191,12 @@ for cat in set(df["company_id"]):
 df = pd.merge(df, tmp_all, on = ["company_id", "date"], how = "left")
 ```
 
-### ConnectingDatabases
-* AWSとの連携 
+* データベースとの連携
+
+AWS と
   * sqlの実行結果をローカルで走らせたpythonのdataframeに取り込み
   * ローカルで走らせたpythonのdataframeをredshift上にtableとして生成
   * 参照 <https://dev.classmethod.jp/articles/amazon-redshift2pandas_with_psycopg2/>
-* GCPとの連携
-### 
 
 ## Errors
 * SettingWithCopyWarningの対処
