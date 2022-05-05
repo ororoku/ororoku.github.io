@@ -1,9 +1,9 @@
 # リンク集
 
-- [Study](#Study)
-- [Tools](#Tools)
-- [Data](#Data)
-- [Misc](#Misc)
+- [Study](#Study) 体系的に勉強するのに役立つオンラインコースなど
+- [Tools](#Tools) 便利なツール類
+- [Data](#Data)　データセット
+- [Misc](#Misc)　その他
 
 
 ## Study
