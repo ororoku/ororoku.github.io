@@ -1,24 +1,22 @@
 # リンク集
 
-- [Study](#Study) 体系的に勉強するのに役立つオンラインコースなど
-- [Tools](#Tools) 便利なツール類
+このページには、よく使うリンクをまとめておく。
+以下の様に分類する。
+
+- [Study](#Study) オンラインコースなど
+- [Tools](#Tools) ソースコード類
 - [Data](#Data)　データセット
 - [Misc](#Misc)　その他
 
 
 ## Study
-体系的に身に付けるのに役立つオンラインのコンテンツ
+体系的に身に付けるのに役立つオンラインコースなど
 
-* <https://library.oapen.org/> オープンアクセスの教科書が大量に置いてある。PDF形式でダウンロード可能
 
 ### CS, Math and Data Science
-* [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
-  * 日本語版PDFも公開されている
 * CS50 <https://cs50.harvard.edu/x/2021/>
   * 日本語版 <https://cs50.jp/>
 * コーディング面接対策のために解きたいLeetCode 60問 <https://1kohei1.com/leetcode/>
-* [ファインマン物理数学](http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol5.pdf)
-  * Lecture3 : ごちゃごちゃした関数の微分（対数微分の応用）
 * <https://ja.wolframalpha.com/examples/mathematics/>
   * 数学の諸概念の解説とデモ
 * 数理・データサイエンス教育強化拠点コンソーシアム http://www.mi.u-tokyo.ac.jp/consortium/e-learning.html
@@ -102,7 +100,7 @@
   * NASAが提供する、天文学・物理学の論文DB
 * 🧑‍🎓 JSTOR Data for research(DfR) <https://guides.smu.edu/jstordfr>
 
-## Others
+## Misc
 * 大学院生の掲示板 <https://www.econjobrumors.com/>
 * 英語の表現を確認するのに便利なサイト <https://hypcol.marutank.net/ja/> ArXivの英語表現を検索して頻度別に表示
 * [Langsmith Editor](https://editor.langsmith.co.jp/) アカデミック・ライティングのための執筆支援システム
