@@ -1,38 +1,12 @@
 # Python
-- [Links](#Links)
 - [Tips](#Tips)
   - [Coding Style](#codingstyle)
   - [Semantics](#semantics)
   - [Data Structures](#datastructures)
   - [Functions](#functions)
-  - [IPython](#ipython)
-  - [Jupyter Notebook](#jupyternotebook)
   - [Packages](#packages) 
 - [Errors](#Errors)
 
-## Links
-よく使うリンク集
-
-* 公式チュートリアル <https://docs.python.org/ja/3/tutorial/appetite.html>
-* IPython Built-in magic commands <https://ipython.readthedocs.io/en/stable/interactive/magics.html>
-* Python Package Index(PyPI) <https://pypi.org/>
-* Julia, Matlabとの変換チートシート <https://cheatsheets.quantecon.org/>
-* ゼロから学ぶPython <https://rinatz.github.io/python-book/>
-* やさしいPython入門 <https://python.softmoco.com/basics/>
-  * 命名規則を調べるのに使った 
-* 東大のPython入門 <https://utokyo-ipp.github.io/> 
-  * Colaboratoryによる演習 <https://colab.research.google.com/github/utokyo-ipp/utokyo-ipp.github.io/blob/master/colab/index.ipynb>
-* PEP8 : 推奨されるコーディング規約 <https://www.python.org/dev/peps/pep-0008/>
-  * 日本語訳 <https://pep8-ja.readthedocs.io/ja/latest/> 
-* Googleのコーディング規約 <https://google.github.io/styleguide/pyguide.html>
-* Docstrings style guides
-  * Google https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
-  * numpy https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard
-
-書籍
-* 独習Python 
-* Python for Data Analysis （邦訳 : Pythonによるデータ分析入門） 
-  * 2nd edition以降がPython3系に対応なので気をつけること
 
 ## Tips 
 
