@@ -121,14 +121,14 @@ print(x, y)
 print(w, z)
 ```
 
-### Data Structures
-Pythonのデータ構造には、以下の様なものがある。
-* Sequencesと文字列
-
 #### namespace
 例えば、関数定義の外でxという変数を宣言していた場合、関数定義の中でxという変数を使おうとすると以下の様なルールが適用されるらしい。これは、バグの温床になりそう
 * 関数定義の中でxを宣言しなかった場合 -> 外で宣言されたxを使う
 * 関数定義の中でxを宣言した場合 -> 中で宣言されたxを使う
+
+### Data Structures
+Pythonのデータ構造には、以下の様なものがある。
+* Sequencesと文字列
 
 
 ### Modules and Packages
