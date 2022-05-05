@@ -1,14 +1,14 @@
 # Python
-- [Tips](#Tips)
+- [Overview](#overview)
   - [Coding Style](#codingstyle)
   - [Semantics](#semantics)
   - [Data Structures](#datastructures)
-  - [Functions](#functions)
-  - [Packages](#packages) 
+  - [Modules and Packages](#modulesandpackages) 
+- [Tips](#Tips)
 - [Errors](#Errors)
 
 
-## Tips 
+## Overview
 
 ### Coding Style
 #### The Zen of Python
@@ -122,56 +122,25 @@ print(w, z)
 ```
 
 ### Data Structures
-#### Sequencesと文字列
-混乱しやすい点
-```Python
-print(type(("TEST")) == str,
-type(["TEST"]) == str,
-type({"TEST"}) == str, 
-type("TEST") == str)
-
-for i in ("TEST"):
-  print(i)
-for i in ["TEST"]:
-  print(i)
-for i in {"TEST"}:
-  print(i)
-for i in "TEST":
-  print(i)
-  
-for i in ("TEST", "test"):
-  print(i)
-for i in ["TEST", "test"]:
-  print(i)
-for i in {"TEST", "test"}:
-  print(i)
-for i in "TEST", "test":
-  print(i)
-```
-### Functions
+Pythonのデータ構造には、以下の様なものがある。
+* Sequencesと文字列
 
 #### namespace
 例えば、関数定義の外でxという変数を宣言していた場合、関数定義の中でxという変数を使おうとすると以下の様なルールが適用されるらしい。これは、バグの温床になりそう
 * 関数定義の中でxを宣言しなかった場合 -> 外で宣言されたxを使う
 * 関数定義の中でxを宣言した場合 -> 中で宣言されたxを使う
 
-#### モジュール・パッケージ・ライブラリ
+
+### Modules and Packages
 モジュールとは、Pythonのファイル（.py）のことである。
 例えば「sample.py」をimportすることで、「sample.py」に含まれる関数やクラスを利用することが出来るようになる。
 パッケージとは、モジュールを複数集めたものである。同じフォルダの中に「__init__.py」が存在する。
 ライブラリとは、パッケージを複数集めたものである。標準ライブラリと呼ばれるものはPythonをインストールすると一緒にインストールされ、print関数など事前に定義しなくても使えるものはこの中で定義されている。
 
-
-
-### Packages
 #### pip
 `pip`はインターネットで公開されているPythonパッケージを取得するためのパッケージ管理ツールである。
 `pip`でPythonのパッケージ（ライブラリ）を管理している場合、`pip install -r requirements.txt`で指定のパッケージを一括でインストールすることが出来る。
 
-よく使う設定ファイル`requirements.txt`の例は以下の通り。
-```Python
-
-```
 
 現在の環境にインストールされたパッケージとバージョンを設定ファイルの形式で出力するには、`pip freeze`コマンドを使う。
 ただ、これだと汚くなりやすいらしい。参照<https://www.kabuku.co.jp/developers/python-pipenv-graph>
@@ -216,6 +185,33 @@ Pipfile.lockもここで作成もしくはupdateされる
 
 参考にしたページ<https://qiita.com/shinshin86/items/e11c1124e3e2e74556b8> requirement.txtで管理しているプロジェクトに導入する方法も書いてある。
 
+
+## Tips
+### 文字列の扱いで混乱しやすい点
+```Python
+print(type(("TEST")) == str,
+type(["TEST"]) == str,
+type({"TEST"}) == str, 
+type("TEST") == str)
+
+for i in ("TEST"):
+  print(i)
+for i in ["TEST"]:
+  print(i)
+for i in {"TEST"}:
+  print(i)
+for i in "TEST":
+  print(i)
+  
+for i in ("TEST", "test"):
+  print(i)
+for i in ["TEST", "test"]:
+  print(i)
+for i in {"TEST", "test"}:
+  print(i)
+for i in "TEST", "test":
+  print(i)
+```
 
 ## Errors
 エラー備忘録
