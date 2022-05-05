@@ -4,6 +4,7 @@
   - [Group Operations](#groupoperations)
   - [Time Series](#timeseries)
 - [Tips](#Tips)
+  - groupbyで計算した結果をDataFrameの新しい列として代入する
   - ランダムな値を持つ列を追加する
   - ディレクトリ内のファイルを読み込んで結合させる
   - 一つでも欠損がある行や列を抽出する
@@ -74,6 +75,94 @@ df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
 ```
 
 ## Tips
+
+#### groupbyで計算した結果をDataFrameの新しい列として代入する
+pd.DataFrameのgroupby関数で得られた集計値をDataFrameの新しい列として使いたい場合、`groupby().transform()`関数を用いるのが便利である。
+
+```Python
+import pandas as pd
+
+
+df = pd.DataFrame(
+    {
+        "category": ["A", "A", "A", "B", "B"],
+        "amount": [100, 300, 100, 200, 200],
+    }
+)
+print(df)
+"""
+  category amount
+0        A    100
+1        A    300
+2        A    100
+3        B    200
+4        B    200
+"""
+
+print(df.groupby("category").sum())
+"""
+category
+A            500
+B            400
+"""
+
+# 元のDataFrameと同じ行数で、対応する行の"category"列の値が含まれるグループの合計を返す
+print(df.groupby("category").transform("sum"))
+"""
+   amount
+0     400
+1     400
+2     500
+3     500
+4     500
+"""
+
+# 元のDataFrameに合計値を付与したい場合は次のようにできる
+df["category_amount"] = df.groupby("category").transform("sum")["amount"]
+print(df)
+"""
+  category  amount  category_amount
+0        A     100              400
+1        A     300              400
+2        B     100              500
+3        B     200              500
+4        B     200              500
+"""
+
+# lambda関数と組み合わせて使うと、カテゴリの平均との差を出すといったことも出来る
+print(df.groupby("category").transform(lambda x: x-x.mean()))
+"""
+       amount
+0 -100.000000
+1  100.000000
+2  -66.666667
+3   33.333333
+4   33.333333
+"""
+
+```
+
+別のやり方としては、`pd.merge()`で結合、辞書形式に変換して結合など。
+```Python
+# mergeで結合する場合
+group_df = df.groupby("category").sum()
+group_df.reset_index(inplace=True)
+group_df.rename(columns={"amount": "category_amount"}, inplace=True)
+print(pd.merge(df, group_df, on="category", how="left"))
+
+# 辞書を作ってマッピングする場合
+group_df = df.groupby("category").sum()
+sum_dict = group_df.to_dict()["amount"]
+print(sum_dict)
+# {'A': 500, 'B': 400}
+df["category_amount"] = df["category"].apply(sum_dict.get)
+print(df)
+```
+
+
+参考にしたページ 
+
+[pandas.DataFrameのgroupby関数で計算した結果を各行に展開する](https://analytics-note.xyz/programming/pandas-groupby-transform/)
 
 #### ランダムな値を持つ列を追加する
 
