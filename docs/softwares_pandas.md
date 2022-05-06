@@ -62,15 +62,17 @@ df[['x','y']].groupby('x').mean() #xでグルーピングしたy列の平均値
 df[['x','y']].groupby('x').sum() #xでグルーピングしたy列の合計値 
 df[['x','y']].groupby('x').count() #xでグルーピングした、NaNを含めないy列の合計数
 df[['x','y']].groupby('x').size() #xでグルーピングした、NaNを含めたy列の合計数
+df[['x','y']].groupby('x').nunique() #xでグルーピングした、y列のユニークカウント数
 df[['x','y']].groupby('x').nth(0) #xでグルーピングした、y列の0番目のデータ
 df[['x','y']].groupby('x').max() #xでグルーピングした、y列の最大値
 df[['x','y']].groupby('x').min() #xでグルーピングした、y列の最小値
 df[['x','y']].groupby('x').median() #xでグルーピングした、y列の中央値
 df[['x','y']].groupby('x').quantile(0.75) #xでグルーピングした、y列の上位25%パーセンタイル
-
-nunique # 一意の値をカウント
-
+df[['x','y']].groupby('x').std() #xでグルーピングした、y列の標準偏差
+df[['x','y']].groupby('x').var() #xでグルーピングした、y列の分散
 ```
+
+ここに挙げたのは主なものだけで、一覧は公式ドキュメントの[API reference](https://pandas.pydata.org/docs/reference/groupby.html)を参照。
 
 ### TimeSeries
 pandasには時系列データを扱う機能も用意されていて、非時系列データと同じデータ構造で扱うことが出来る。
