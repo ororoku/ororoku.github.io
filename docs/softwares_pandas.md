@@ -54,14 +54,22 @@ df.rename(index = {'Tokyooo':'Tokyo', 'Chibaaa':'Chiba'})
   - append 
 
 ### GroupOperations
-pandas　オブジェクトには、集約や要約統計量の計算メソッドが用意されている。
-groupbyによる集約関数には以下の様なものがある。
+本節では、DataFrameのデータを集計するgroupbyメソッドについて説明する。
+特定の列で集計するには`df.groupby('x')`の様にgroupbyメソッドの引数に列名を指定する。
+この戻り値はDataFrameGroupByオブジェクトであり、集計結果を見るには以下の様な集計関数を使って取り出す必要がある。
 ```Python
+df[['x','y']].groupby('x').mean() #xでグルーピングしたy列の平均値 
+df[['x','y']].groupby('x').sum() #xでグルーピングしたy列の合計値 
+df[['x','y']].groupby('x').count() #xでグルーピングした、NaNを含めないy列の合計数
+df[['x','y']].groupby('x').size() #xでグルーピングした、NaNを含めたy列の合計数
+df[['x','y']].groupby('x').nth(0) #xでグルーピングした、y列の0番目のデータ
+df[['x','y']].groupby('x').max() #xでグルーピングした、y列の最大値
+df[['x','y']].groupby('x').min() #xでグルーピングした、y列の最小値
+df[['x','y']].groupby('x').median() #xでグルーピングした、y列の中央値
+df[['x','y']].groupby('x').quantile(0.75) #xでグルーピングした、y列の上位25%パーセンタイル
+
 nunique # 一意の値をカウント
-sum 
-mean 
-count
-df.groupby("x").quantile(.75) # 上位25%パーセンタイル  
+
 ```
 
 ### TimeSeries
