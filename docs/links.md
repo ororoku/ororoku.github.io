@@ -3,36 +3,12 @@
 このページには、よく使うリンクをまとめておく。
 以下の様に分類する。
 
-- [Study](#Study) オンラインコースなど
-- [Tools](#Tools) ソースコード類
-- [Data](#Data)　データセット
-- [Misc](#Misc)　その他
+- [Code](#Code)
+- [Data](#Data)
+- [Online Courses](#OnlineCourses) 
+- [Misc](#Misc)
 
-
-## Study
-体系的に身に付けるのに役立つオンラインコースなど
-
-
-### CS, Math and Data Science
-* CS50 <https://cs50.harvard.edu/x/2021/>
-  * 日本語版 <https://cs50.jp/>
-* コーディング面接対策のために解きたいLeetCode 60問 <https://1kohei1.com/leetcode/>
-* <https://ja.wolframalpha.com/examples/mathematics/>
-  * 数学の諸概念の解説とデモ
-* 数理・データサイエンス教育強化拠点コンソーシアム http://www.mi.u-tokyo.ac.jp/consortium/e-learning.html
-* [Deep Learning基礎講座演習コンテンツ 公開ページ | 東京大学松尾研究室 - Matsuo Lab](https://weblab.t.u-tokyo.ac.jp/deep-learning%E5%9F%BA%E7%A4%8E%E8%AC%9B%E5%BA%A7%E6%BC%94%E7%BF%92%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84-%E5%85%AC%E9%96%8B%E3%83%9A%E3%83%BC%E3%82%B8/)
-
-### Economics
-* [QuantEcon](https://quantecon.org/)
-  * Lecturesでは様々な経済学のモデルを実際に動かしながら学ぶことが出来る
-  * Other Projectsも良い。QE Notesでは色々なケースのNotebookを見ることが出来る。右上のNotebooksから一覧を見れる
-  * Julia, Matlabとの変換チートシートもある <https://cheatsheets.quantecon.org/>
-* [Opportunity Insights](https://opportunityinsights.org/)
-  * Raj.Chettyがやっているサイト
-  * 論文のデータと解析コードなど
-* "Social and Economic Networks: Models and Analysis" by Mat.Jackson <https://www.coursera.org/learn/social-economic-networks>
-
-## Tools
+## Code
 
 ### Linux
 * ディレクトリ構造の標準化仕様　https://www.pathname.com/fhs/ 
@@ -99,6 +75,35 @@
 * 🧑‍🎓 天体物理データシステム（Astrophysics Data System、ADS）<https://ui.adsabs.harvard.edu/>
   * NASAが提供する、天文学・物理学の論文DB
 * 🧑‍🎓 JSTOR Data for research(DfR) <https://guides.smu.edu/jstordfr>
+
+## Online Courses
+勉強になるオンラインコースのまとめ
+
+### 独自サイト
+* [CS50](https://cs50.harvard.edu/x/2021/)
+  * [日本語版](https://cs50.jp/)
+* [コーディング面接対策のために解きたいLeetCode 60問](https://1kohei1.com/leetcode/)
+* <https://ja.wolframalpha.com/examples/mathematics/>
+  * 数学の諸概念の解説とデモ
+* [数理・データサイエンス教育強化拠点コンソーシアム](http://www.mi.u-tokyo.ac.jp/consortium/e-learning.html)
+* [Deep Learning基礎講座演習コンテンツ 公開ページ | 東京大学松尾研究室 - Matsuo Lab](https://weblab.t.u-tokyo.ac.jp/deep-learning%E5%9F%BA%E7%A4%8E%E8%AC%9B%E5%BA%A7%E6%BC%94%E7%BF%92%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84-%E5%85%AC%E9%96%8B%E3%83%9A%E3%83%BC%E3%82%B8/)
+* [QuantEcon](https://quantecon.org/)
+  * Lecturesでは様々な経済学のモデルを実際に動かしながら学ぶことが出来る
+  * Other Projectsも良い。QE Notesでは色々なケースのNotebookを見ることが出来る。右上のNotebooksから一覧を見れる
+  * Julia, Matlabとの変換チートシートもある <https://cheatsheets.quantecon.org/>
+* [Opportunity Insights](https://opportunityinsights.org/)
+  * Raj.Chettyがやっているサイト
+  * 論文のデータと解析コードなど
+
+### Coursera
+* ["Social and Economic Networks: Models and Analysis" by Mat.Jackson](https://www.coursera.org/learn/social-economic-networks)
+
+### Youtube
+
+### その他の有料サービス
+* PyQ
+* Udemy
+* Udacity
 
 ## Misc
 * 大学院生の掲示板 <https://www.econjobrumors.com/>
