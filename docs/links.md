@@ -5,7 +5,7 @@
 
 - [Code](#Code)
 - [Data](#Data)
-- [Online Courses](#Onlinecourses) 
+- [Courses](#Courses)
 - [Misc](#Misc)
 
 ## Code
@@ -76,10 +76,12 @@
   * NASAが提供する、天文学・物理学の論文DB
 * 🧑‍🎓 JSTOR Data for research(DfR) <https://guides.smu.edu/jstordfr>
 
-## Online Courses
-勉強になるオンラインコースのまとめ
+## Courses
+独学できそうなオンラインコースのまとめ
 
 ### 独自サイト
+* [Kaggle Courses](https://www.kaggle.com/learn)
+  * データ分析のやり方について一通りのチュートリアルがある
 * [CS50](https://cs50.harvard.edu/x/2021/)
   * [日本語版](https://cs50.jp/)
 * [コーディング面接対策のために解きたいLeetCode 60問](https://1kohei1.com/leetcode/)
