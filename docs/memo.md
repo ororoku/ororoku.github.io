@@ -37,6 +37,7 @@ Python関連
 
 諸々
 
+* [Google Chrome](softwares_chrome.md) 2022/06/15
 * [正規表現](softwares_regex.md) 2021/11/23
 * [Mac](softwares_mac.md) 2020/10/18
 * Vim
