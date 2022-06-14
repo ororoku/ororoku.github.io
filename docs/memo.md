@@ -29,7 +29,7 @@ Work in progress
 ## Softwares
 Python関連
 
-* [IPython and Jupyter Notebpok](softwares_jupyter.md) 2022/05/03
+* [IPython and Jupyter Notebook](softwares_jupyter.md) 2022/05/03
 * [Google Colab](softwares_colab.md) 2022/04/23
 * [pandas](softwares_pandas.md) 2021/08/20
 * [Python](softwares_python.md) 2020/10/01 
