@@ -21,12 +21,12 @@
 * [IPython Built-in magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
 * [PEP8 : 推奨されるコーディング規約](https://www.python.org/dev/peps/pep-0008/)
   * [日本語訳](https://pep8-ja.readthedocs.io/ja/latest/) 
+
+### Python(Tips)
 * [Googleのコーディング規約](https://google.github.io/styleguide/pyguide.html)
 * Docstrings style guides
   * [Google](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
   * [numpy](https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard)
-
-### Python(Tips)
 * グラフ作成のためのチートシートとPythonによる各種グラフの実装<https://qiita.com/4m1t0/items/76b0033edb545a78cef5>
 * やさしいPython入門 <https://python.softmoco.com/basics/>
   * 命名規則を調べるのに使った 
