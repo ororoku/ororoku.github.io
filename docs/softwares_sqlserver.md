@@ -12,11 +12,33 @@
 * インデックスの作成
 * データのinsert
 
-### DB作成
+
+### データベースの作成
 ### テーブルの作成
+
+
 ### インデックスの作成
+
+
 ### データのinsert
 
+```
+BULK INSERT test_table
+FROM 'C:\Users\XXX\YYY\insert_data.csv'
+WITH (FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR='\n',
+FIELDQUOTE = '"',
+BATCHSIZE=250000,
+FORMAT = 'CSV',
+CODEPAGE = '65001',
+    MAXERRORS=2);
+```
+
+正常にinsertされたかを確かめるため、終わったらカウント数の確認をしておこう。
+
 ## Tips
+
 ## Errors
+
 ## References
