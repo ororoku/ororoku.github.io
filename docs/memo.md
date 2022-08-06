@@ -1,6 +1,7 @@
 [リンク集](links.md) 2021/11/22
 
 ## Data Science 
+* [パソコン自作入門](pc_build.md)
 * SQLの数学
 * 🔒 [モデリングTODOリスト](https://trello.com/b/y5ahKlhp)
 
