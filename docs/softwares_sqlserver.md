@@ -38,6 +38,10 @@ CODEPAGE = '65001',
 ## Tips
 
 ### 分析結果を新しいテーブルとして作成
+Select結果からテーブルを作成するには、例えば以下の様に書く。
+'''
+Select * into dbo.tmp From test_table
+'''
 
 ## Errors
 
