@@ -60,5 +60,6 @@ Select * into dbo.tmp From test_table
 Cドライブのプロパティから「このドライブを圧縮してディスク領域を空ける」にチェックが入っていたのを外して解決。
 
 ### 出力したcsvにHeaderが付かない
+Query -> Query Options -> Results から"include column headers ..."にチェックを入れて解決。
 
 ## References
