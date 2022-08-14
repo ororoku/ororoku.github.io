@@ -45,4 +45,10 @@ Select * into dbo.tmp From test_table
 
 ## Errors
 
+### 警告 : NULL 値は集計またはその他の SET 演算で削除されました。
+
+### インストールで失敗
+
+### 出力したcsvにHeaderが付かない
+
 ## References
