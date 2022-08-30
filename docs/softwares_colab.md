@@ -84,5 +84,9 @@ __参考__
 
 ## Errors
 
+### Tab補完がきかない
+
+ツール -> 設定 -> 編集者 から 「コード入力時の候補を自動的に表示する」のチェックを外すと、機能するようになった。
+
 
 [top](https://ororoku.github.io/) / [memo](https://ororoku.github.io/docs/memo.html)
