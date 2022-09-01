@@ -88,7 +88,15 @@ df['yyyymm'] = df['date'].apply(lambda x: x.strftime('%Y%m'))
 
 ### 色々なランダムサンプリング
 
-pandas.DataFrame.sample() メソッドを使うと、データフレームから行や列を 無作為抽出 (ランダムサンプリング)することが
+`pandas.DataFrame.sample()`メソッドを使うと、データフレームから行や列を無作為抽出 (ランダムサンプリング)することが出来る。
+
+```Python
+df.sample()#無作為に1行を抽出
+df.sample(3)#無作為に3行を抽出
+df.sample(3, random_state=1)#無作為に3行を抽出, 乱数シードを固定
+df.sample(frac=0.1)#無作為に10%を抽出
+df.sample(10, replace=True, weights=[0.6, 0.1, 0.1, 0.1, 0.1])#(dfを5行のDataFrameとして)10回の重み付き復元抽出
+```
 
 ### groupbyで計算した結果をDataFrameの新しい列として代入する
 pd.DataFrameのgroupby関数で得られた集計値をDataFrameの新しい列として使いたい場合、`groupby().transform()`関数を用いるのが便利である。
