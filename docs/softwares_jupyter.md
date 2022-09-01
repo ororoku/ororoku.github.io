@@ -86,9 +86,12 @@ jupyter nbextensions_configurator enable --user
 ```
 a~dの後、Jupyter Notebookを再起動すれば画面上部から「Nbextensions」が選択できるようになっている。
 
-
-
 ## Errors
+
+### pipでjupyterをインストールしても「コマンドが見つかりません」と言われてしまう
+以下のコマンドで管理者権限でインストールする
+```sudo -H pip3 install jupyter```
+
 ## References
 
 [top](https://ororoku.github.io/) / [memo](https://ororoku.github.io/docs/memo.html)
