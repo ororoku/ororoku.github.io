@@ -362,6 +362,11 @@ AWSと連携するには以下の様にする。
 * 対処 : 空DFの生成直後にfillna(0)してNaNを無くしておく
 * 参考 : [Pandasで空DFを作って後からintを代入する件](https://pepper.is.sci.toho-u.ac.jp/pepper/index.php?%A5%CE%A1%BC%A5%C8%2FPandas%A4%C7%B6%F5DF%A4%F2%BA%EE%A4%C3%A4%C6%B8%E5%A4%AB%A4%E9int%A4%F2%C2%E5%C6%FE%A4%B9%A4%EB%B7%EF)
 
-### parse_datesでDateTime型として読み込まれないことがある
-* 概要 : Google Colabにて、read_csvのオプションとしてparse_datesで指定した列がDateTime型として読み込まれないことがある
+### pandasの日付の処理について
+parse_datesで指定した列が日付として読み込まれないことがある。
+例えば、中身が下記のようなファイル
+```
+```
+
+概要read_csvのオプションとしてparse_datesで指定した列がDateTime型として読み込まれないことがある
 * 対処 : 未解決。年を使いたかったので文字列として読み込み、strアクセサを用いて最初の四文字を取得する（.str[:4]） 
