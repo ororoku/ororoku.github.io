@@ -363,6 +363,8 @@ AWSと連携するには以下の様にする。
 * 参考 : [Pandasで空DFを作って後からintを代入する件](https://pepper.is.sci.toho-u.ac.jp/pepper/index.php?%A5%CE%A1%BC%A5%C8%2FPandas%A4%C7%B6%F5DF%A4%F2%BA%EE%A4%C3%A4%C6%B8%E5%A4%AB%A4%E9int%A4%F2%C2%E5%C6%FE%A4%B9%A4%EB%B7%EF)
 
 ### pandasの日付の処理について
+2022/09/15
+
 例えば、中身が下記のようなファイル（input.txt）を
 ```
 date
