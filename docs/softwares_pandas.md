@@ -377,8 +377,12 @@ import pandas as pd
 df = pd.read_table('input.txt', parse_dates=['date'])
 ```
 
-pandasは、`pandas.Timestamp.max`の値である`Timestamp('2262-04-11 23:47:16.854775807')`までしか日付として読み込むことは出来ない。
-試してみると例えば`pd.to_datetime('3000-01-01')`はOutOfBoundsDatetimeエラーとなる。
+原因は、pandasでは`pandas.Timestamp.max`の値である`Timestamp('2262-04-11 23:47:16.854775807')`までしか日付として読み込むことは出来ないからである。
+試してみると、例えば`pd.to_datetime('3000-01-01')`はOutOfBoundsDatetimeエラーとなる。
 これはPython標準ライブラリのデータ型であるdatetimeモジュールに定数として用意されている最大値`datetime.MAXYEAR`よりずっと近い未来なので、注意が必要である。
 
-対処法としては、文字列として読み込んで、年を使いたいならstrアクセサを用いて最初の四文字を取得する.str[:4]
+対処法としては、文字列として読み込んでおいて、例えば年を使いたいならstrアクセサを用いて以下のように最初の四文字を取得する。
+```Python
+df['year'] = df['date'].str[:4].astype(int)
+```
+
