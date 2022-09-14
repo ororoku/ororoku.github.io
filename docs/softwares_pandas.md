@@ -386,3 +386,12 @@ df = pd.read_table('input.txt', parse_dates=['date'])
 df['year'] = df['date'].str[:4].astype(int)
 ```
 
+あるいは、`pandas.Timestamp.max`以降の日付を`NaT`にする。
+```Python
+df = pd.read_table('input.txt', dtype={'date': str})
+# pd.Timestamp.max 以降の日付をNaNとする
+df.loc[df['date'] > f'{pd.Timestamp.max:%Y%M%d}', 'date'] = pd.np.nan
+# NaNはNaTになる
+df['date'] = pd.to_datetime(df['date'])
+print(df)
+```
