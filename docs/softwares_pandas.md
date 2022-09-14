@@ -363,10 +363,22 @@ AWSと連携するには以下の様にする。
 * 参考 : [Pandasで空DFを作って後からintを代入する件](https://pepper.is.sci.toho-u.ac.jp/pepper/index.php?%A5%CE%A1%BC%A5%C8%2FPandas%A4%C7%B6%F5DF%A4%F2%BA%EE%A4%C3%A4%C6%B8%E5%A4%AB%A4%E9int%A4%F2%C2%E5%C6%FE%A4%B9%A4%EB%B7%EF)
 
 ### pandasの日付の処理について
-parse_datesで指定した列が日付として読み込まれないことがある。
-例えば、中身が下記のようなファイル
+例えば、中身が下記のようなファイル（input.txt）を
 ```
+date
+2015-09-15
+1970-12-21
+2019-05-02
+9999-12-31
+```
+`pandas.read_csv`や`pandas.read_table`で以下のように読み込んでも日付型にはならず、文字列（object型）になってしまう。
+```Python
+import pandas as pd
+df = pd.read_table('input.txt', parse_dates=['date'])
 ```
 
-概要read_csvのオプションとしてparse_datesで指定した列がDateTime型として読み込まれないことがある
-* 対処 : 未解決。年を使いたかったので文字列として読み込み、strアクセサを用いて最初の四文字を取得する（.str[:4]） 
+pandasは、`pandas.Timestamp.max`の値である`Timestamp('2262-04-11 23:47:16.854775807')`までしか日付として読み込むことは出来ない。
+試してみると例えば`pd.to_datetime('3000-01-01')`はOutOfBoundsDatetimeエラーとなる。
+これはPython標準ライブラリのデータ型であるdatetimeモジュールに定数として用意されている最大値`datetime.MAXYEAR`よりずっと近い未来なので、注意が必要である。
+
+対処法としては、文字列として読み込んで、年を使いたいならstrアクセサを用いて最初の四文字を取得する.str[:4]
