@@ -49,7 +49,7 @@ Python関連
 * VS Code
 * [Git](softwares_git.md) 2020/10/01
 * [Emacs](softwares_emacs.md) 2010/12/07
-* Windows
+* [Windows](softwares_windows.md) 2022/09/18
 
 
 [top](https://ororoku.github.io/)
