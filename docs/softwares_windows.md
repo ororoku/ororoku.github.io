@@ -15,4 +15,5 @@
 
 参考
 * [Magicマウスは、Windows PCも使える](https://qiita.com/liu-wei/items/0355d6fbabd152c76ac2)
+* [Windows 10 で Apple Magic Mouse 2 をフルに使う](https://heptech.fc2.page/2020/03/10/fully-utilize-apple-magic-mouse2-on-winndows10/)
 * [Magicキーボードは、Windows PCも使える](https://qiita.com/liu-wei/items/459bfe1aec740da963c9)
