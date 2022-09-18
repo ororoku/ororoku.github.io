@@ -15,3 +15,4 @@
 
 参考
 * [Magicマウスは、Windows PCも使える](https://qiita.com/liu-wei/items/0355d6fbabd152c76ac2)
+* [Magicキーボードは、Windows PCも使える](https://qiita.com/liu-wei/items/459bfe1aec740da963c9)
