@@ -30,15 +30,16 @@ Work in progress
 Python関連
 
 * [IPython and Jupyter Notebook](softwares_jupyter.md) 2022/05/03
-* [Google Colab](softwares_colab.md) 2022/04/23
 * [pandas](softwares_pandas.md) 2021/08/20
 * [Python](softwares_python.md) 2020/10/01 
 
+Google関連
+* [Google Colab](softwares_colab.md) 2022/04/23
+* [Google Chrome](softwares_chrome.md) 2022/06/15
 
 諸々
 
 * [SQL Server](softwares_sqlserver.md) 2022/07/26
-* [Google Chrome](softwares_chrome.md) 2022/06/15
 * [正規表現](softwares_regex.md) 2021/11/23
 * [Mac](softwares_mac.md) 2020/10/18
 * Vim
