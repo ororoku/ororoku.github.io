@@ -39,7 +39,7 @@ Google関連
 * C++ 
 * [Unix/Linux](softwares_unix.md) 2021/12/08 
 * Stata 
-* Latex
+* [LaTeX and BibTeX] 2022/09/27
 * VS Code
 * [Git](softwares_git.md) 2020/10/01
 * [Emacs](softwares_emacs.md) 2010/12/07
