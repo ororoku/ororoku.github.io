@@ -12,19 +12,12 @@
 * [マーケティングの勉強](marketing.md) 2020/04/04
 * [経済学の勉強の記録](econ_study.md) 2016/03/31
 
-## Natural Science
-* [科学をめぐる言説](sts.md) 2020/08/04
+## Natural Science & Math
 * [研究の資金繰りについて](research_budget.md) 2020/07/07
 * [オープンアカデミアについて](open_academia.md) 2020/05/17
 * [科学技術政策・研究関連のビジネスまとめ](st_business.md) 2020/05/09
 * ILCプロジェクトについて
-
-## Math
-* [ABC予想や数学の研究について](abc_math.md) 2020/06
 * マスコレルAppendixの解説
-
-## Writing 
-Work in progress
 
 ## Softwares
 Python関連
