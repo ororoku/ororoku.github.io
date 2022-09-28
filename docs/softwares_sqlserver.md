@@ -15,10 +15,11 @@ SQL Server 2019 DeveloperエディションとSQL Server Management Studio (SSMS
 
 SSMSは、SQL Server から Azure SQL Database まで、SQL インフラストラクチャを管理するための統合環境であり、SQL Server とデータベースのインスタンスを構成、監視、および管理するためのツールが備わっている、とされている。
 
-### ユーザーの作成
+### ユーザーの作成とログイン
 以下の手順でおこなう。
 * 認証モードの変更 : SSMSを立ち上げてserverに接続-> Server Properties -> Securities -> Server authentificationを「SQL server認証モードとWindows認証モード」に変更
 * Serverのrestart後、Security -> Logins -> New から認証を"SQL Server authentification"にして新しいユーザーを作成
+* Serverを一度disconnectし、接続しなおす。認証をSQL Server認証に変えて、先ほど作ったユーザーでログインする
 
 
 ### データベースの作成
