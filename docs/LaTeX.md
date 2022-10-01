@@ -1,7 +1,7 @@
 # LaTeX and BibTeX
 
 ## Overview 
-LaTeXとは組版ソフトウェアである。
+LaTeXとは組版ソフトウェアである。BibTeXは参考文献の一覧の整形に使われるツールである。
 クラウド上でコンパイル可能なサービスであるOverleafも便利である。
 
 ## Tips 
