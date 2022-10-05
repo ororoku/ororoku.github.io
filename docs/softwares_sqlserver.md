@@ -62,9 +62,11 @@ CODEPAGE = '65001',
 
 ### バッチからSQLファイルを実行
 SSMSにプレインストールされているsqlcmdユーティリティを使って、コマンドプロンプトからSQLコマンドを実行できる。
-例えばWindows認証で`insert.sql`を実行する場合は以下のように書く。
+例えばWindows認証で`insert.sql`を実行するバッチファイルは以下のように書く。
 ```
-
+@echo off
+sqlcmd -S localhost -d testDB -E -i insert.sql
+pause
 ```
 
 参照
