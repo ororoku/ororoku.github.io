@@ -86,6 +86,9 @@ Select * into dbo.tmp From test_table
 
 ## Errors
 
+### 存在するテーブルなのに、SSMS上でInvalid object nameとなってしまう
+CTRL+SHIFT+R で直った。
+
 ### インストール時エラー「このディレクトリは圧縮されているか、圧縮されたディレクトリにあります。圧縮されていないディレクトリを指定してください。」
 
 "C:\SQL2019"ディレクトリにSQL Server 2019 Developerエディションをインストールしようとして上記のエラーが起きた。OSはWindows10。
