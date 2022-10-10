@@ -60,6 +60,26 @@ CODEPAGE = '65001',
 
 ## Tips
 
+### 過去に実行したクエリの直近100件を表示する
+
+```
+SELECT TOP 100
+	 qs.last_execution_time
+	,st.text as query_text
+	,qp.query_plan
+FROM
+	sys.dm_exec_query_stats as qs
+CROSS APPLY
+	sys.dm_exec_sql_text(qs.sql_handle) as st
+CROSS APPLY
+	sys.dm_exec_query_plan(qs.plan_handle) as qp
+ORDER BY
+	qs.last_execution_time desc
+```
+
+参考
+* [SQL Serverで過去に実行したクエリを表示する](https://qiita.com/fuk101/items/00eb7963ed44988b5cf1)
+
 ### バッチからSQLファイルを実行
 SSMSにプレインストールされているsqlcmdユーティリティを使って、コマンドプロンプトからSQLコマンドを実行できる。
 例えばWindows認証で`insert.sql`を実行するバッチファイルは以下のように書く。
