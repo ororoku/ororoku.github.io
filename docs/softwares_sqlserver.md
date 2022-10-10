@@ -106,6 +106,12 @@ Select * into dbo.tmp From test_table
 
 ## Errors
 
+### リンク サーバー "(null)" の OLE DB プロバイダー "BULK" から必要なインターフェイス ("IID_IColumnsInfo") を取得できません。
+未解決
+
+### 一括読み込み: DataFileType が char に指定されていますが正しくありません。データ ファイルは Unicode 指定されているので、DataFileType は widechar と想定されます。
+未解決
+
 ### 存在するテーブルなのに、SSMS上でInvalid object nameとなってしまう
 CTRL+SHIFT+R で直った。
 
