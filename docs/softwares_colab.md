@@ -91,5 +91,8 @@ __参考__
 
 ツール -> 設定 -> 編集者 から 「コード入力時の候補を自動的に表示する」のチェックを外すと、機能するようになった。
 
+### pandas_profiling.ProfileReportを使うとconcat() got an unexpected keyword argument 'join_axes'エラー
+
+`!pip install -U pandas_profiling`でpandas_profilingのversionをupgradeすると解決
 
 [top](https://ororoku.github.io/) / [memo](https://ororoku.github.io/docs/memo.html)
