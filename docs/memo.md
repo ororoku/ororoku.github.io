@@ -21,7 +21,6 @@
 
 ## Softwares
 Python関連
-
 * [IPython and Jupyter Notebook](softwares_jupyter.md) 2022/05/03
 * [pandas](softwares_pandas.md) 2021/08/20
 * [Python](softwares_python.md) 2020/10/01 
@@ -30,9 +29,13 @@ Google関連
 * [Google Colab](softwares_colab.md) 2022/04/23
 * [Google Chrome](softwares_chrome.md) 2022/06/15
 
-諸々
-
+Microsoft関連
+* [Windows](softwares_windows.md) 2022/09/18
 * [SQL Server](softwares_sqlserver.md) 2022/07/26
+* [MS Office](softwares_msoffice.md) 2022/10/24
+* [VS Code](softwares_vscode.md) 2022/10/24
+
+諸々
 * [正規表現](softwares_regex.md) 2021/11/23
 * [Mac](softwares_mac.md) 2020/10/18
 * Vim
@@ -40,10 +43,10 @@ Google関連
 * [Unix/Linux](softwares_unix.md) 2021/12/08 
 * Stata 
 * [LaTeX and BibTeX](LaTeX.md) 2022/09/27
-* VS Code
+
 * [Git](softwares_git.md) 2020/10/01
 * [Emacs](softwares_emacs.md) 2010/12/07
-* [Windows](softwares_windows.md) 2022/09/18
+
 
 
 [top](https://ororoku.github.io/)
