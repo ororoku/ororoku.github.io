@@ -1,7 +1,7 @@
 [リンク集](links.md) 2021/11/22
 
 ## Data Science 
-* [パソコン自作入門](pc_build.md)
+* [パソコン自作](pc_build.md)
 * SQLの数学
 
 ## Social Science
@@ -13,7 +13,7 @@
 ## Natural Science & Math
 * [研究の資金繰りについて](research_budget.md) 2020/07/07
 * [オープンアカデミアについて](open_academia.md) 2020/05/17
-* [科学技術政策・研究関連のビジネスまとめ](st_business.md) 2020/05/09
+* [産学連携](st_business.md) 2020/05/09
 * ILCプロジェクトについて
 * マスコレルAppendixの解説
 
@@ -43,7 +43,6 @@ Microsoft関連
 * [LaTeX/BibTeX](LaTeX.md) 2022/09/27
 * [Git](softwares_git.md) 2020/10/01
 * [Emacs](softwares_emacs.md) 2010/12/07
-
 
 
 [top](https://ororoku.github.io/)
