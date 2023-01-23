@@ -3,10 +3,8 @@
 ## Data Science 
 * [パソコン自作入門](pc_build.md)
 * SQLの数学
-* モデリングTODOリスト 🔐 [trello](https://trello.com/b/y5ahKlhp)
 
 ## Social Science
-* スコアリングモデルの分類 🔐 [dropbox paper](https://paper.dropbox.com/doc/--A6O6veqzYNddiZvkGA1GloRfAQ-q15V7LMvoyhsz813kBzpx) 2020/08/23
 * [Covid-19関連](covid19.md) 2020/04/15
 * [因果推論の勉強](causality.md) 2020/04/04
 * [マーケティングの勉強](marketing.md) 2020/04/04
@@ -42,8 +40,7 @@ Microsoft関連
 * C++ 
 * [Unix/Linux](softwares_unix.md) 2021/12/08 
 * Stata 
-* [LaTeX and BibTeX](LaTeX.md) 2022/09/27
-
+* [LaTeX/BibTeX](LaTeX.md) 2022/09/27
 * [Git](softwares_git.md) 2020/10/01
 * [Emacs](softwares_emacs.md) 2010/12/07
 
