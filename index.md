@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My Profile
+title: Masahiro Oroku
 ---
 
 
@@ -20,7 +20,7 @@ title: My Profile
   <i class="fab fa-linkedin"></i>
 </a>
 <a href="https://x.com/ororoku" target="_blank" title="X">
-  <i class="fa-brands fa-x-twitter"></i>
+  <i class="fab fa-twitter"></i>
 </a>
 <a href="https://facebook.com/masahiro.oroku" target="_blank" title="Facebook">
   <i class="fab fa-facebook"></i>
