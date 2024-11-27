@@ -20,7 +20,7 @@ title: My Profile
   <i class="fab fa-linkedin"></i>
 </a>
 <a href="https://x.com/ororoku" target="_blank" title="X">
-  <i class="fab fa-x-twitter"></i>
+  <i class="fa-brands fa-x-twitter"></i>
 </a>
 <a href="https://facebook.com/masahiro.oroku" target="_blank" title="Facebook">
   <i class="fab fa-facebook"></i>
