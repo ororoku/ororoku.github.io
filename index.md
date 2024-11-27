@@ -1,3 +1,9 @@
+---
+layout: default
+title: My Profile
+---
+
+
 ## 大録 誠広 | Masahiro Oroku
 - PhD, Physics
 - MA, Economics
